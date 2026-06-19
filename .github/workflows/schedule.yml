@@ -7,6 +7,9 @@ on:
     - cron: '0 6 * * 5'
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 concurrency:
   group: weekly-start
   cancel-in-progress: false
@@ -47,7 +50,17 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run task
-        run: pnpm start
+        run: |
+          for attempt in 1 2 3; do
+            echo "Run task attempt ${attempt}/3"
+            if pnpm start; then
+              exit 0
+            fi
+            if [ "${attempt}" -lt 3 ]; then
+              sleep $((attempt * 30))
+            fi
+          done
+          exit 1
 
       - name: Commit & push (if changed)
         env:
