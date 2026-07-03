@@ -485987,6 +485987,130 @@
         {
           "Accuracy": 95,
           "AtkNum": 0,
+          "AtkType": 3,
+          "Category": 4,
+          "CritRate": 0,
+          "ID": 29382,
+          "MaxPP": 5,
+          "MonID": 0,
+          "MustHit": 1,
+          "Name": "融入阴影",
+          "Power": 0,
+          "Priority": 0,
+          "SideEffect": [
+            191,
+            1589,
+            1754,
+            843
+          ],
+          "SideEffectArg": [
+            4,
+            2,
+            300,
+            300,
+            1,
+            2,
+            2
+          ],
+          "Type": 8,
+          "info": "开始免疫受到的异常状态了；获得了护盾；出手变得更快了",
+          "ordinary": 0
+        },
+        {
+          "Accuracy": 95,
+          "AtkNum": 0,
+          "AtkType": 3,
+          "Category": 4,
+          "CritRate": 0,
+          "ID": 29383,
+          "MaxPP": 5,
+          "MonID": 0,
+          "MustHit": 1,
+          "Name": "极行步伐",
+          "Power": 0,
+          "Priority": 0,
+          "SideEffect": [
+            1378,
+            791,
+            834
+          ],
+          "SideEffectArg": [
+            1,
+            30,
+            2,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            4,
+            3,
+            3,
+            3
+          ],
+          "Type": 8,
+          "info": "全属性提升了；开始恢复体力了；开始保护自身的能力提升状态了",
+          "ordinary": 0
+        },
+        {
+          "Accuracy": 95,
+          "AtkNum": 0,
+          "AtkType": 3,
+          "Category": 4,
+          "CritRate": 0,
+          "ID": 29384,
+          "MaxPP": 5,
+          "MonID": 0,
+          "MustHit": 1,
+          "Name": "识海片像",
+          "Power": 0,
+          "Priority": 0,
+          "SideEffect": [
+            191,
+            1347,
+            44
+          ],
+          "SideEffectArg": [
+            4,
+            2,
+            2
+          ],
+          "Type": 8,
+          "info": "开始免疫并反弹受到的异常状态了；反转了对手的能力提升；受到的特殊攻击伤害减半了",
+          "ordinary": 0
+        },
+        {
+          "Accuracy": 95,
+          "AtkNum": 0,
+          "AtkType": 3,
+          "Category": 4,
+          "CritRate": 0,
+          "ID": 29385,
+          "MaxPP": 5,
+          "MonID": 0,
+          "MustHit": 1,
+          "Name": "白貌行道",
+          "Power": 0,
+          "Priority": 0,
+          "SideEffect": [
+            1338,
+            708,
+            50
+          ],
+          "SideEffectArg": [
+            1,
+            400,
+            2,
+            2
+          ],
+          "Type": 8,
+          "info": "全属性提升了；恢复了一定的体力；受到的物理攻击伤害减半了",
+          "ordinary": 0
+        },
+        {
+          "Accuracy": 95,
+          "AtkNum": 0,
           "AtkType": 0,
           "Category": 1,
           "CritRate": 0,
@@ -702378,6 +702502,185 @@
             1
           ],
           "Type": 44,
+          "info": "",
+          "ordinary": 0
+        },
+        {
+          "Accuracy": 97,
+          "AtkNum": 0,
+          "AtkType": 0,
+          "Category": 1,
+          "CritRate": 0,
+          "ID": 38438,
+          "MaxPP": 20,
+          "MonID": 0,
+          "MustHit": 0,
+          "Name": "夜行击",
+          "Power": 85,
+          "Priority": 3,
+          "SideEffect": [
+            1123,
+            553
+          ],
+          "SideEffectArg": [
+            2,
+            2,
+            70,
+            6
+          ],
+          "Type": 48,
+          "info": "",
+          "ordinary": 0
+        },
+        {
+          "Accuracy": 97,
+          "AtkNum": 0,
+          "AtkType": 0,
+          "Category": 1,
+          "CritRate": 0,
+          "ID": 38439,
+          "MaxPP": 5,
+          "MonID": 0,
+          "MustHit": 0,
+          "Name": "幽影连击",
+          "Power": 10,
+          "Priority": 0,
+          "SideEffect": [
+            1141,
+            1290
+          ],
+          "SideEffectArg": [
+            10,
+            20,
+            5,
+            6,
+            15,
+            5,
+            16,
+            2,
+            2
+          ],
+          "Type": 48,
+          "info": "",
+          "ordinary": 0
+        },
+        {
+          "Accuracy": 95,
+          "AtkNum": 0,
+          "AtkType": 0,
+          "Category": 1,
+          "CritRate": 0,
+          "ID": 38440,
+          "MaxPP": 5,
+          "MonID": 0,
+          "MustHit": 1,
+          "Name": "影猎截杀破",
+          "Power": 160,
+          "Priority": 0,
+          "SideEffect": [
+            1878,
+            1122,
+            2067
+          ],
+          "SideEffectArg": [
+            3,
+            1,
+            6,
+            3,
+            50,
+            3,
+            3
+          ],
+          "Type": 48,
+          "info": "",
+          "ordinary": 0
+        },
+        {
+          "Accuracy": 97,
+          "AtkNum": 0,
+          "AtkType": 0,
+          "Category": 1,
+          "CritRate": 0,
+          "ID": 38441,
+          "MaxPP": 20,
+          "MonID": 0,
+          "MustHit": 0,
+          "Name": "行素",
+          "Power": 85,
+          "Priority": 3,
+          "SideEffect": [
+            1495,
+            127
+          ],
+          "SideEffectArg": [
+            100,
+            2,
+            100,
+            2
+          ],
+          "Type": 25,
+          "info": "",
+          "ordinary": 0
+        },
+        {
+          "Accuracy": 97,
+          "AtkNum": 0,
+          "AtkType": 0,
+          "Category": 1,
+          "CritRate": 0,
+          "ID": 38442,
+          "MaxPP": 5,
+          "MonID": 0,
+          "MustHit": 0,
+          "Name": "欲茧徒囚",
+          "Power": 10,
+          "Priority": 0,
+          "SideEffect": [
+            1565,
+            1779
+          ],
+          "SideEffectArg": [
+            3,
+            1,
+            2,
+            3
+          ],
+          "Type": 25,
+          "info": "",
+          "ordinary": 0
+        },
+        {
+          "Accuracy": 95,
+          "AtkNum": 0,
+          "AtkType": 0,
+          "Category": 1,
+          "CritRate": 0,
+          "ID": 38443,
+          "MaxPP": 5,
+          "MonID": 0,
+          "MustHit": 1,
+          "Name": "真我觐见",
+          "Power": 160,
+          "Priority": 0,
+          "SideEffect": [
+            1190,
+            1035,
+            1
+          ],
+          "SideEffectArg": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            -6,
+            50,
+            6,
+            2,
+            100,
+            23
+          ],
+          "Type": 25,
           "info": "",
           "ordinary": 0
         },
