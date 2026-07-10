@@ -8541,6 +8541,20 @@
                     "proicon": 1500,
                     "title": "创造之化身",
                     "titleColor": "0xFFFFFF"
+                  },
+                  {
+                    "AbilityTitle": 0,
+                    "AchievementPoint": 10,
+                    "Desc": "通关S-卡鲁维德【地狱难度】关卡获得",
+                    "ID": 15,
+                    "SpeNameBonus": 599,
+                    "Threshold": "15",
+                    "abtext": "",
+                    "achName": "虚空战士",
+                    "hide": 0,
+                    "proicon": 1505,
+                    "title": "虚空战士",
+                    "titleColor": "0xFFFFFF"
                   }
                 ],
                 "_text": "",

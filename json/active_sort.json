@@ -481,6 +481,23 @@
       "statlog": "",
       "truepos": 1,
       "type": 2
+    },
+    {
+      "controller": "",
+      "dailyRed": 0,
+      "dest": "897",
+      "finishtime": "2026/8/7 10:00:00",
+      "iOSreviewshow": 0,
+      "id": 29,
+      "image": "summer26seasonPanel_entrance",
+      "isdeadline": 1,
+      "isshow": 1,
+      "jumptarget": 0,
+      "name": "幻海之旅",
+      "priority": 22,
+      "statlog": "",
+      "truepos": 1,
+      "type": 2
     }
   ]
 }

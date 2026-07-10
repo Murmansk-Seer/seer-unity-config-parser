@@ -1357,8 +1357,8 @@
           {
             "Desc": "",
             "Go": "app/FinalActivityPanel",
-            "ID": 4917,
-            "ImageID": 4917,
+            "ID": 4919,
+            "ImageID": 4919,
             "Label": 0,
             "Redirect": "module",
             "monID": 0,
@@ -1367,12 +1367,42 @@
           {
             "Desc": "",
             "Go": "app/FinalActivityPanel",
-            "ID": 4918,
-            "ImageID": 4918,
+            "ID": 4920,
+            "ImageID": 4920,
             "Label": 0,
             "Redirect": "module",
             "monID": 0,
             "type": 0
+          },
+          {
+            "Desc": "",
+            "Go": "app/FinalActivityPanel",
+            "ID": 4921,
+            "ImageID": 4921,
+            "Label": 0,
+            "Redirect": "module",
+            "monID": 0,
+            "type": 0
+          },
+          {
+            "Desc": "",
+            "Go": "app/FinalActivityPanel",
+            "ID": 852,
+            "ImageID": 1400852,
+            "Label": 0,
+            "Redirect": "module",
+            "monID": 4200,
+            "type": 1
+          },
+          {
+            "Desc": "",
+            "Go": "app/FinalActivityPanel",
+            "ID": 853,
+            "ImageID": 1400853,
+            "Label": 0,
+            "Redirect": "module",
+            "monID": 4840,
+            "type": 1
           }
         ]
       }
@@ -25208,7 +25238,7 @@
         "DefName": "圣光格劳瑞",
         "Features": "沐浴圣光的格劳瑞，锋芒毕露、霆威永驻！",
         "ID": 4004,
-        "Target": ""
+        "Target": "150134"
       },
       {
         "DefName": "檀杏·花信",
@@ -30681,6 +30711,24 @@
         "Features": "2026年包月精灵，万象录之《追求自我之人》。因执念而生的顶尖人偶师，为了追求极致的艺术而改造自身，最终灵魂化为人偶，在废墟中献上永不谢幕的演出。",
         "ID": 4918,
         "Target": "121000"
+      },
+      {
+        "DefName": "卡鲁维德",
+        "Features": "由卡鲁克斯被虚空能量污染并改造而来。退化了相当程度的智能，眼中只有杀戮和对主人的服从。",
+        "ID": 4919,
+        "Target": "153201/942"
+      },
+      {
+        "DefName": "弗勒克斯",
+        "Features": "为了维护正义，勇敢的游侠独自完成了对自我的改造，双枪的配合给予了他更强的火力。",
+        "ID": 4920,
+        "Target": "113026"
+      },
+      {
+        "DefName": "天堂极龙兽",
+        "Features": "传说中的神兽自天堂来袭，这一次它必将终结所有罪恶!",
+        "ID": 4921,
+        "Target": "114116"
       }
     ],
     "RecMintmark": {

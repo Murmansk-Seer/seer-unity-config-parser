@@ -1649,6 +1649,26 @@
       "portrait": "gela_fg",
       "scale": 1,
       "silhouette": 0
+    },
+    {
+      "CharacterID": 4922,
+      "emoji": "",
+      "id": 166,
+      "initialposition": "-32,-131",
+      "name": "墟婆",
+      "portrait": "xupo_fg",
+      "scale": 1,
+      "silhouette": 0
+    },
+    {
+      "CharacterID": 4916,
+      "emoji": "",
+      "id": 167,
+      "initialposition": "0,-71",
+      "name": "若兰",
+      "portrait": "ruolan_fg",
+      "scale": 1,
+      "silhouette": 0
     }
   ]
 }
