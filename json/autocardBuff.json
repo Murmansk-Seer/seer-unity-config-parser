@@ -1759,6 +1759,15 @@
       "IsDeathEffect": 0,
       "IsPlaceEffect": 0,
       "effectIcon": "",
+      "id": 10202,
+      "object": "卡牌",
+      "param": "a",
+      "paramDes": "被视为拥有所有系别(可移除)"
+    },
+    {
+      "IsDeathEffect": 0,
+      "IsPlaceEffect": 0,
+      "effectIcon": "",
       "id": 20001,
       "object": "魔法",
       "param": "a",
