@@ -3,25 +3,27 @@ import {
   text,
   int,
   type FieldSchema,
-} from "../utils/ConfigParserTemplate";
+} from '../utils/ConfigParserTemplate'
 
 export interface IEmojiInfo {
-  icon: string;
-  id: number;
+  icon: string
+  id: number
 }
 
 export interface EmojiConfig {
-  data?: IEmojiInfo[];
+  data?: IEmojiInfo[]
 }
 
 const emojiInfoSchema: FieldSchema = [
-  ["icon", text()],
-  ["id", int()],
-];
+  ['icon', text()],
+  ['id', int()],
+]
 
-export const parseEmojiConfig = createSimpleListParser<IEmojiInfo, EmojiConfig>({
-  name: "emoji",
-  outputPath: "./json/emoji.json",
-  dataKey: "data",
-  itemSchema: emojiInfoSchema,
-});
+export const parseEmojiConfig = createSimpleListParser<IEmojiInfo, EmojiConfig>(
+  {
+    name: 'emoji',
+    outputPath: './json/emoji.json',
+    dataKey: 'data',
+    itemSchema: emojiInfoSchema,
+  },
+)

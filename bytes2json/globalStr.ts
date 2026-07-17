@@ -3,27 +3,30 @@ import {
   text,
   int,
   type FieldSchema,
-} from "../utils/ConfigParserTemplate";
+} from '../utils/ConfigParserTemplate'
 
 export interface IGlobalStrInfo {
-  content: string;
-  id: number;
-  name: string;
+  content: string
+  id: number
+  name: string
 }
 
 export interface GlobalStrConfig {
-  data?: IGlobalStrInfo[];
+  data?: IGlobalStrInfo[]
 }
 
 const globalStrInfoSchema: FieldSchema = [
-  ["content", text()],
-  ["id", int()],
-  ["name", text()],
-];
+  ['content', text()],
+  ['id', int()],
+  ['name', text()],
+]
 
-export const parseGlobalStrConfig = createSimpleListParser<IGlobalStrInfo, GlobalStrConfig>({
-  name: "globalStr",
-  outputPath: "./json/globalStr.json",
-  dataKey: "data",
+export const parseGlobalStrConfig = createSimpleListParser<
+  IGlobalStrInfo,
+  GlobalStrConfig
+>({
+  name: 'globalStr',
+  outputPath: './json/globalStr.json',
+  dataKey: 'data',
   itemSchema: globalStrInfoSchema,
-});
+})

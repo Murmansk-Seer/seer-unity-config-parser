@@ -3,33 +3,36 @@ import {
   text,
   int,
   type FieldSchema,
-} from "../utils/ConfigParserTemplate";
+} from '../utils/ConfigParserTemplate'
 
 export interface IAchievementbonusInfo {
-  Branch: number;
-  Rule: number;
-  id: number;
-  rewardcnt: string;
-  rewardid: string;
-  rewardtype: number;
+  Branch: number
+  Rule: number
+  id: number
+  rewardcnt: string
+  rewardid: string
+  rewardtype: number
 }
 
 export interface AchievementbonusConfig {
-  data?: IAchievementbonusInfo[];
+  data?: IAchievementbonusInfo[]
 }
 
 const achievementbonusInfoSchema: FieldSchema = [
-  ["Branch", int()],
-  ["Rule", int()],
-  ["id", int()],
-  ["rewardcnt", text()],
-  ["rewardid", text()],
-  ["rewardtype", int()],
-];
+  ['Branch', int()],
+  ['Rule', int()],
+  ['id', int()],
+  ['rewardcnt', text()],
+  ['rewardid', text()],
+  ['rewardtype', int()],
+]
 
-export const parseAchievementbonusConfig = createSimpleListParser<IAchievementbonusInfo, AchievementbonusConfig>({
-  name: "achievementbonus",
-  outputPath: "./json/achievementbonus.json",
-  dataKey: "data",
+export const parseAchievementbonusConfig = createSimpleListParser<
+  IAchievementbonusInfo,
+  AchievementbonusConfig
+>({
+  name: 'achievementbonus',
+  outputPath: './json/achievementbonus.json',
+  dataKey: 'data',
   itemSchema: achievementbonusInfoSchema,
-});
+})

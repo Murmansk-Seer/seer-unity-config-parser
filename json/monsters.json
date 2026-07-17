@@ -6275,54 +6275,63 @@
           "SpMove": [
             {
               "Id": 10823,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 10824,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 10825,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 20363,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 20364,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 13582,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 13583,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 13584,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 13585,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -24644,24 +24653,28 @@
           "SpMove": [
             {
               "Id": 13582,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 13583,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 13584,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 13585,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -28469,18 +28482,21 @@
           "SpMove": [
             {
               "Id": 24319,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 7,
               "tag": 0
             },
             {
               "Id": 17912,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 7,
               "tag": 0
             },
             {
               "Id": 18006,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 7,
               "tag": 0
@@ -64574,6 +64590,7 @@
           "SpMove": [
             {
               "Id": 11673,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -64701,6 +64718,7 @@
           "SpMove": [
             {
               "Id": 11673,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -64792,6 +64810,7 @@
           "SpMove": [
             {
               "Id": 11679,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -64919,6 +64938,7 @@
           "SpMove": [
             {
               "Id": 11679,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -75736,30 +75756,35 @@
           "SpMove": [
             {
               "Id": 21890,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 13582,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 13583,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 13584,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 13585,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -81214,18 +81239,21 @@
           "SpMove": [
             {
               "Id": 14635,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 14636,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 22504,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -81359,18 +81387,21 @@
           "SpMove": [
             {
               "Id": 14696,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 14697,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 22539,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -81504,18 +81535,21 @@
           "SpMove": [
             {
               "Id": 14663,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 14664,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 22520,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -83549,24 +83583,28 @@
           "SpMove": [
             {
               "Id": 13582,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 13583,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 13584,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 13585,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -100393,6 +100431,7 @@
           "SpMove": [
             {
               "Id": 22174,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -100526,6 +100565,7 @@
           "SpMove": [
             {
               "Id": 22174,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -148954,12 +148994,14 @@
           "SpMove": [
             {
               "Id": 13705,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 21948,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -149093,12 +149135,14 @@
           "SpMove": [
             {
               "Id": 13705,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 21948,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -160096,12 +160140,14 @@
           "SpMove": [
             {
               "Id": 14069,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 22100,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -160235,12 +160281,14 @@
           "SpMove": [
             {
               "Id": 14069,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 22100,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -177329,30 +177377,35 @@
           "SpMove": [
             {
               "Id": 14230,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 14231,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 14232,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 22257,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 22258,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -178241,12 +178294,14 @@
           "SpMove": [
             {
               "Id": 14548,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 22339,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -178380,12 +178435,14 @@
           "SpMove": [
             {
               "Id": 14548,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 22339,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -182581,30 +182638,35 @@
           "SpMove": [
             {
               "Id": 14352,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 14353,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 14355,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 22331,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 22332,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -182708,30 +182770,35 @@
           "SpMove": [
             {
               "Id": 14352,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 14353,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 14355,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 22331,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 22332,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -185980,24 +186047,28 @@
           "SpMove": [
             {
               "Id": 13582,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 13583,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 13584,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 13585,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -187683,12 +187754,14 @@
           "SpMove": [
             {
               "Id": 14470,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 22403,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -193751,12 +193824,14 @@
           "SpMove": [
             {
               "Id": 22489,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 22490,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -194360,12 +194435,14 @@
           "SpMove": [
             {
               "Id": 22587,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 14976,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -194499,12 +194576,14 @@
           "SpMove": [
             {
               "Id": 22587,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 14976,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -200894,18 +200973,21 @@
           "SpMove": [
             {
               "Id": 14856,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 14857,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 14858,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -201556,6 +201638,7 @@
           "SpMove": [
             {
               "Id": 14819,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -201778,6 +201861,7 @@
           "SpMove": [
             {
               "Id": 14820,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -215170,18 +215254,21 @@
           "SpMove": [
             {
               "Id": 22793,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 22794,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 15121,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -217836,18 +217923,21 @@
           "SpMove": [
             {
               "Id": 15180,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 22831,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 15181,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -218766,18 +218856,21 @@
           "SpMove": [
             {
               "Id": 15204,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 22845,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 15203,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -239569,30 +239662,35 @@
           "SpMove": [
             {
               "Id": 21890,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 13582,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 13583,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 13584,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 13585,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -239690,12 +239788,14 @@
           "SpMove": [
             {
               "Id": 23127,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 23129,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -239817,12 +239917,14 @@
           "SpMove": [
             {
               "Id": 23127,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 23129,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -241661,24 +241763,28 @@
           "SpMove": [
             {
               "Id": 13582,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 13583,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 13584,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 13585,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -242405,12 +242511,14 @@
           "SpMove": [
             {
               "Id": 16967,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 23840,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -246003,12 +246111,14 @@
           "SpMove": [
             {
               "Id": 16965,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 23839,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -248078,60 +248188,70 @@
           "SpMove": [
             {
               "Id": 10823,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 10824,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 10825,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 20363,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 20364,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 13582,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 13583,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 13584,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 13585,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 17677,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -248265,30 +248385,35 @@
           "SpMove": [
             {
               "Id": 15896,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 23246,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 15897,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 23247,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 15898,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -254565,12 +254690,14 @@
           "SpMove": [
             {
               "Id": 23322,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 16029,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -255081,12 +255208,14 @@
           "SpMove": [
             {
               "Id": 14470,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 22403,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -266407,18 +266536,21 @@
           "SpMove": [
             {
               "Id": 15180,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 22831,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 15181,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -267629,18 +267761,21 @@
           "SpMove": [
             {
               "Id": 22793,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 22794,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 15121,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -268335,18 +268470,21 @@
           "SpMove": [
             {
               "Id": 15204,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 22845,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 15203,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -276799,12 +276937,14 @@
           "SpMove": [
             {
               "Id": 23800,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 23771,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -295061,6 +295201,7 @@
           "SpMove": [
             {
               "Id": 19002,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -300693,6 +300834,7 @@
           "SpMove": [
             {
               "Id": 24409,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -314193,12 +314335,14 @@
           "SpMove": [
             {
               "Id": 17908,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 17955,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -316313,12 +316457,14 @@
           "SpMove": [
             {
               "Id": 17677,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 18126,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -324026,12 +324172,14 @@
           "SpMove": [
             {
               "Id": 19784,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 24997,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -353372,6 +353520,7 @@
           "SpMove": [
             {
               "Id": 30122,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -355286,18 +355435,21 @@
           "AdvMove": [
             {
               "Id": 28630,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 2,
               "tag": 0
             },
             {
               "Id": 28631,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 3,
               "tag": 0
             },
             {
               "Id": 37167,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 1,
               "tag": 0
@@ -356170,6 +356322,7 @@
           "SpMove": [
             {
               "Id": 30126,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -357358,6 +357511,7 @@
           "SpMove": [
             {
               "Id": 30123,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -357403,18 +357557,21 @@
           "AdvMove": [
             {
               "Id": 37760,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 1,
               "tag": 0
             },
             {
               "Id": 28947,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 3,
               "tag": 0
             },
             {
               "Id": 28948,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 4,
               "tag": 0
@@ -359291,6 +359448,7 @@
           "SpMove": [
             {
               "Id": 30127,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -360360,6 +360518,7 @@
           "SpMove": [
             {
               "Id": 30124,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -360952,6 +361111,7 @@
           "SpMove": [
             {
               "Id": 30128,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -362605,6 +362765,7 @@
           "SpMove": [
             {
               "Id": 30125,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -363994,6 +364155,7 @@
           "SpMove": [
             {
               "Id": 30129,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -364487,6 +364649,7 @@
           "SpMove": [
             {
               "Id": 30130,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -368134,6 +368297,7 @@
           "SpMove": [
             {
               "Id": 30185,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -389230,6 +389394,7 @@
           "SpMove": [
             {
               "Id": 29075,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -390752,6 +390917,7 @@
           "AdvMove": [
             {
               "Id": 28253,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 2,
               "tag": 0
@@ -393609,18 +393775,21 @@
           "AdvMove": [
             {
               "Id": 38407,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 1,
               "tag": 0
             },
             {
               "Id": 29361,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 3,
               "tag": 0
             },
             {
               "Id": 38408,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 4,
               "tag": 0
@@ -398701,6 +398870,7 @@
           "SpMove": [
             {
               "Id": 29283,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -399339,6 +399509,7 @@
           "SpMove": [
             {
               "Id": 29284,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -400597,6 +400768,15 @@
               "LearningLv": 61,
               "Rec": 1,
               "Tag": 0
+            }
+          ],
+          "SpMove": [
+            {
+              "Id": 29401,
+              "LearningLv": 0,
+              "Rec": 1,
+              "Tag": 3,
+              "tag": 0
             }
           ]
         },
@@ -405535,10 +405715,35 @@
               "Rec": 1,
               "Tag": 0
             }
+          ],
+          "SpMove": [
+            {
+              "Id": 29402,
+              "LearningLv": 0,
+              "Rec": 1,
+              "Tag": 3,
+              "tag": 0
+            }
           ]
         },
         "PetClass": 2158,
         "RealId": 0,
+        "ShowExtraMoves": {
+          "Move": [
+            {
+              "Id": 38462,
+              "LearningLv": 71,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 38463,
+              "LearningLv": 71,
+              "Rec": 0,
+              "Tag": 0
+            }
+          ]
+        },
         "SpAtk": 70,
         "SpDef": 107,
         "Spd": 128,
@@ -406064,6 +406269,7 @@
           "SpMove": [
             {
               "Id": 29330,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -408449,18 +408655,21 @@
           "AdvMove": [
             {
               "Id": 36404,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 1,
               "tag": 0
             },
             {
               "Id": 28217,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 3,
               "tag": 0
             },
             {
               "Id": 36405,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 4,
               "tag": 0
@@ -408680,12 +408889,14 @@
           "AdvMove": [
             {
               "Id": 36573,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 1,
               "tag": 0
             },
             {
               "Id": 36574,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 4,
               "tag": 0
@@ -409789,18 +410000,21 @@
           "AdvMove": [
             {
               "Id": 36200,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 1,
               "tag": 0
             },
             {
               "Id": 28118,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 3,
               "tag": 0
             },
             {
               "Id": 36201,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 4,
               "tag": 0
@@ -410139,18 +410353,21 @@
           "AdvMove": [
             {
               "Id": 38008,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 1,
               "tag": 0
             },
             {
               "Id": 38009,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 4,
               "tag": 0
             },
             {
               "Id": 29102,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 2,
               "tag": 0
@@ -411405,18 +411622,21 @@
           "AdvMove": [
             {
               "Id": 29142,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 3
             },
             {
               "Id": 38074,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 1
             },
             {
               "Id": 38075,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 4
@@ -412755,6 +412975,7 @@
           "SpMove": [
             {
               "Id": 38064,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -414092,6 +414313,7 @@
           "SpMove": [
             {
               "Id": 29016,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -415390,6 +415612,15 @@
               "Rec": 1,
               "Tag": 0
             }
+          ],
+          "SpMove": [
+            {
+              "Id": 29392,
+              "LearningLv": 79,
+              "Rec": 0,
+              "Tag": 3,
+              "tag": 0
+            }
           ]
         },
         "PetClass": 2209,
@@ -416159,12 +416390,14 @@
           "SpMove": [
             {
               "Id": 32546,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 38186,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -418333,6 +418566,7 @@
           "SpMove": [
             {
               "Id": 37196,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -419406,12 +419640,14 @@
           "SpMove": [
             {
               "Id": 32483,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 29338,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -420195,6 +420431,7 @@
           "SpMove": [
             {
               "Id": 29076,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -421093,6 +421330,7 @@
           "SpMove": [
             {
               "Id": 38119,
+              "LearningLv": 0,
               "Rec": 1,
               "Tag": 4,
               "tag": 0
@@ -422007,6 +422245,7 @@
           "SpMove": [
             {
               "Id": 32624,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -424722,18 +424961,21 @@
           "AdvMove": [
             {
               "Id": 28646,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 2,
               "tag": 0
             },
             {
               "Id": 37193,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 1,
               "tag": 0
             },
             {
               "Id": 37194,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 4,
               "tag": 0
@@ -426186,18 +426428,21 @@
           "AdvMove": [
             {
               "Id": 37461,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 1,
               "tag": 0
             },
             {
               "Id": 37462,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 4,
               "tag": 0
             },
             {
               "Id": 37463,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 4,
               "tag": 0
@@ -427438,6 +427683,7 @@
           "SpMove": [
             {
               "Id": 29018,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -432770,6 +433016,7 @@
           "SpMove": [
             {
               "Id": 28684,
+              "LearningLv": 0,
               "Rec": 1,
               "Tag": 2,
               "tag": 0
@@ -433115,18 +433362,21 @@
           "AdvMove": [
             {
               "Id": 36535,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 1,
               "tag": 0
             },
             {
               "Id": 28278,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 2,
               "tag": 0
             },
             {
               "Id": 36536,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 4,
               "tag": 0
@@ -435354,6 +435604,7 @@
           "SpMove": [
             {
               "Id": 29213,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -435545,6 +435796,7 @@
           "SpMove": [
             {
               "Id": 38232,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -437495,12 +437747,14 @@
           "AdvMove": [
             {
               "Id": 36291,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 1,
               "tag": 0
             },
             {
               "Id": 28161,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 3,
               "tag": 0
@@ -437644,18 +437898,21 @@
           "AdvMove": [
             {
               "Id": 28496,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 2,
               "tag": 0
             },
             {
               "Id": 28497,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 3,
               "tag": 0
             },
             {
               "Id": 36943,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 4,
               "tag": 0
@@ -438514,18 +438771,21 @@
           "AdvMove": [
             {
               "Id": 29299,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 38317,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 38318,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -439285,18 +439545,21 @@
           "AdvMove": [
             {
               "Id": 28455,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 2,
               "tag": 0
             },
             {
               "Id": 28456,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 3,
               "tag": 0
             },
             {
               "Id": 36878,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 1,
               "tag": 0
@@ -440449,18 +440712,21 @@
           "AdvMove": [
             {
               "Id": 28380,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 2,
               "tag": 0
             },
             {
               "Id": 28381,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 3,
               "tag": 0
             },
             {
               "Id": 36744,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 4,
               "tag": 0
@@ -441334,18 +441600,21 @@
           "AdvMove": [
             {
               "Id": 37691,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 3,
               "tag": 0
             },
             {
               "Id": 37692,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 1,
               "tag": 0
             },
             {
               "Id": 28910,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 4,
               "tag": 0
@@ -442880,6 +443149,7 @@
           "SpMove": [
             {
               "Id": 29211,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -442925,18 +443195,21 @@
           "AdvMove": [
             {
               "Id": 28972,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 2,
               "tag": 0
             },
             {
               "Id": 37806,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 1,
               "tag": 0
             },
             {
               "Id": 37807,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 4,
               "tag": 0
@@ -443254,6 +443527,7 @@
           "SpMove": [
             {
               "Id": 29246,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -446412,6 +446686,7 @@
           "SpMove": [
             {
               "Id": 29020,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -446797,12 +447072,14 @@
           "AdvMove": [
             {
               "Id": 29023,
+              "LearningLv": 86,
               "Rec": 1,
               "Tag": 2,
               "tag": 0
             },
             {
               "Id": 29024,
+              "LearningLv": 87,
               "Rec": 1,
               "Tag": 3,
               "tag": 0
@@ -449736,6 +450013,7 @@
           "SpMove": [
             {
               "Id": 28868,
+              "LearningLv": 0,
               "Rec": 1,
               "Tag": 0,
               "tag": 0
@@ -452235,6 +452513,7 @@
           "SpMove": [
             {
               "Id": 37873,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -452837,6 +453116,7 @@
           "SpMove": [
             {
               "Id": 37418,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -453790,6 +454070,7 @@
           "SpMove": [
             {
               "Id": 29133,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -453928,6 +454209,15 @@
               "LearningLv": 61,
               "Rec": 1,
               "Tag": 0
+            }
+          ],
+          "SpMove": [
+            {
+              "Id": 29400,
+              "LearningLv": 0,
+              "Rec": 1,
+              "Tag": 3,
+              "tag": 0
             }
           ]
         },
@@ -454068,6 +454358,7 @@
           "SpMove": [
             {
               "Id": 29134,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -454211,6 +454502,7 @@
           "SpMove": [
             {
               "Id": 37025,
+              "LearningLv": 0,
               "Rec": 1,
               "Tag": 1,
               "tag": 0
@@ -454789,6 +455081,7 @@
           "SpMove": [
             {
               "Id": 29013,
+              "LearningLv": 0,
               "Rec": 1,
               "Tag": 1,
               "tag": 0
@@ -455226,6 +455519,7 @@
           "SpMove": [
             {
               "Id": 38063,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -456263,6 +456557,7 @@
           "SpMove": [
             {
               "Id": 38187,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -458770,6 +459065,7 @@
           "SpMove": [
             {
               "Id": 29011,
+              "LearningLv": 0,
               "Rec": 1,
               "Tag": 3,
               "tag": 0
@@ -458780,6 +459076,16 @@
         "RealId": 0,
         "SpAtk": 70,
         "SpDef": 111,
+        "SpExtraMoves": {
+          "Move": [
+            {
+              "Id": 38455,
+              "LearningLv": 81,
+              "Rec": 0,
+              "Tag": 0
+            }
+          ]
+        },
         "Spd": 134,
         "Support": 0,
         "Transform": 0,
@@ -461505,6 +461811,7 @@
           "SpMove": [
             {
               "Id": 29170,
+              "LearningLv": 0,
               "Rec": 1,
               "Tag": 4,
               "tag": 0
@@ -461648,6 +461955,7 @@
           "SpMove": [
             {
               "Id": 38233,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -462121,6 +462429,7 @@
           "SpMove": [
             {
               "Id": 29329,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -463338,6 +463647,7 @@
           "SpMove": [
             {
               "Id": 29169,
+              "LearningLv": 0,
               "Rec": 1,
               "Tag": 2,
               "tag": 0
@@ -463886,6 +464196,7 @@
           "SpMove": [
             {
               "Id": 38117,
+              "LearningLv": 0,
               "Rec": 1,
               "Tag": 1,
               "tag": 0
@@ -464211,18 +464522,21 @@
           "AdvMove": [
             {
               "Id": 37809,
+              "LearningLv": 63,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 28973,
+              "LearningLv": 64,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 37810,
+              "LearningLv": 65,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -465695,6 +466009,7 @@
           "SpMove": [
             {
               "Id": 37872,
+              "LearningLv": 0,
               "Rec": 1,
               "Tag": 1,
               "tag": 0
@@ -470743,6 +471058,7 @@
           "SpMove": [
             {
               "Id": 29093,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -471875,6 +472191,7 @@
           "SpMove": [
             {
               "Id": 29135,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -471920,18 +472237,21 @@
           "AdvMove": [
             {
               "Id": 28668,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 2,
               "tag": 0
             },
             {
               "Id": 37239,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 1,
               "tag": 0
             },
             {
               "Id": 37240,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 4,
               "tag": 0
@@ -473985,12 +474305,14 @@
           "AdvMove": [
             {
               "Id": 28341,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 3,
               "tag": 0
             },
             {
               "Id": 36669,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 4,
               "tag": 0
@@ -475595,6 +475917,7 @@
           "SpMove": [
             {
               "Id": 29017,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -476716,6 +477039,7 @@
           "SpMove": [
             {
               "Id": 38356,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -477922,6 +478246,16 @@
         "RealId": 0,
         "SpAtk": 70,
         "SpDef": 109,
+        "SpExtraMoves": {
+          "Move": [
+            {
+              "Id": 38456,
+              "LearningLv": 81,
+              "Rec": 0,
+              "Tag": 0
+            }
+          ]
+        },
         "Spd": 135,
         "Support": 0,
         "Transform": 0,
@@ -478480,6 +478814,7 @@
           "SpMove": [
             {
               "Id": 29193,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -480700,6 +481035,7 @@
           "SpMove": [
             {
               "Id": 29212,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -481038,6 +481374,7 @@
           "SpMove": [
             {
               "Id": 29245,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -481906,6 +482243,7 @@
           "SpMove": [
             {
               "Id": 34983,
+              "LearningLv": 0,
               "Rec": 1,
               "Tag": 4,
               "tag": 0
@@ -484327,6 +484665,7 @@
           "SpMove": [
             {
               "Id": 38294,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -485175,6 +485514,7 @@
           "SpMove": [
             {
               "Id": 29337,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -485888,12 +486228,14 @@
           "SpMove": [
             {
               "Id": 34880,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 27488,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -489073,6 +489415,7 @@
           "SpMove": [
             {
               "Id": 28759,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -489476,6 +489819,7 @@
           "SpMove": [
             {
               "Id": 28758,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -490443,6 +490787,7 @@
           "SpMove": [
             {
               "Id": 37990,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -495536,6 +495881,7 @@
           "SpMove": [
             {
               "Id": 37989,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -496654,24 +497000,28 @@
           "SpMove": [
             {
               "Id": 34528,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 34529,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 34530,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 34531,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -496840,6 +497190,15 @@
               "LearningLv": 75,
               "Rec": 1,
               "Tag": 0
+            }
+          ],
+          "SpMove": [
+            {
+              "Id": 38453,
+              "LearningLv": 0,
+              "Rec": 1,
+              "Tag": 1,
+              "tag": 0
             }
           ]
         },
@@ -498298,18 +498657,21 @@
           "AdvMove": [
             {
               "Id": 38247,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 29253,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 38248,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -501470,6 +501832,7 @@
           "SpMove": [
             {
               "Id": 37963,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -501865,24 +502228,28 @@
           "SpMove": [
             {
               "Id": 27402,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 27403,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 27404,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 27405,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -506701,8 +507068,16 @@
           "SpMove": [
             {
               "Id": 29019,
-              "Rec": 0,
-              "Tag": 0,
+              "LearningLv": 0,
+              "Rec": 1,
+              "Tag": 3,
+              "tag": 0
+            },
+            {
+              "Id": 38461,
+              "LearningLv": 0,
+              "Rec": 1,
+              "Tag": 1,
               "tag": 0
             }
           ]
@@ -506881,24 +507256,28 @@
           "AdvMove": [
             {
               "Id": 29187,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 29188,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 38147,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 38148,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -507175,6 +507554,15 @@
               "LearningLv": 61,
               "Rec": 1,
               "Tag": 0
+            }
+          ],
+          "SpMove": [
+            {
+              "Id": 29399,
+              "LearningLv": 0,
+              "Rec": 1,
+              "Tag": 1,
+              "tag": 0
             }
           ]
         },
@@ -507470,6 +507858,7 @@
           "SpMove": [
             {
               "Id": 37621,
+              "LearningLv": 0,
               "Rec": 1,
               "Tag": 1,
               "tag": 0
@@ -511349,6 +511738,15 @@
               "Rec": 1,
               "Tag": 4
             }
+          ],
+          "SpMove": [
+            {
+              "Id": 38454,
+              "LearningLv": 0,
+              "Rec": 1,
+              "Tag": 1,
+              "tag": 0
+            }
           ]
         },
         "PetClass": 2876,
@@ -511748,6 +512146,7 @@
           "SpMove": [
             {
               "Id": 37620,
+              "LearningLv": 0,
               "Rec": 1,
               "Tag": 1,
               "tag": 0
@@ -514556,6 +514955,7 @@
           "SpMove": [
             {
               "Id": 29012,
+              "LearningLv": 0,
               "Rec": 1,
               "Tag": 2,
               "tag": 0
@@ -518053,6 +518453,7 @@
           "SpMove": [
             {
               "Id": 37296,
+              "LearningLv": 0,
               "Rec": 1,
               "Tag": 1,
               "tag": 0
@@ -530663,6 +531064,7 @@
           "SpMove": [
             {
               "Id": 38118,
+              "LearningLv": 0,
               "Rec": 1,
               "Tag": 4,
               "tag": 0
@@ -532055,6 +532457,7 @@
           "SpMove": [
             {
               "Id": 37340,
+              "LearningLv": 0,
               "Rec": 1,
               "Tag": 4,
               "tag": 0
@@ -543417,6 +543820,7 @@
           "SpMove": [
             {
               "Id": 37275,
+              "LearningLv": 0,
               "Rec": 1,
               "Tag": 1,
               "tag": 0
@@ -548723,6 +549127,7 @@
           "SpMove": [
             {
               "Id": 37022,
+              "LearningLv": 0,
               "Rec": 1,
               "Tag": 1,
               "tag": 0
@@ -551805,6 +552210,7 @@
           "SpMove": [
             {
               "Id": 37339,
+              "LearningLv": 0,
               "Rec": 1,
               "Tag": 1,
               "tag": 0
@@ -552204,6 +552610,7 @@
           "SpMove": [
             {
               "Id": 37024,
+              "LearningLv": 0,
               "Rec": 1,
               "Tag": 4,
               "tag": 0
@@ -559564,6 +559971,7 @@
           "SpMove": [
             {
               "Id": 28869,
+              "LearningLv": 0,
               "Rec": 1,
               "Tag": 3,
               "tag": 0
@@ -562188,6 +562596,7 @@
           "SpMove": [
             {
               "Id": 28782,
+              "LearningLv": 75,
               "Rec": 0,
               "Tag": 3,
               "tag": 0
@@ -567156,6 +567565,7 @@
           "SpMove": [
             {
               "Id": 28867,
+              "LearningLv": 0,
               "Rec": 1,
               "Tag": 3,
               "tag": 0
@@ -569469,6 +569879,7 @@
           "SpMove": [
             {
               "Id": 29092,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -578113,18 +578524,21 @@
           "SpMove": [
             {
               "Id": 28989,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 37834,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 37835,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -590796,6 +591210,7 @@
           "SpMove": [
             {
               "Id": 38046,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -590867,6 +591282,7 @@
           "SpMove": [
             {
               "Id": 38047,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -590938,6 +591354,7 @@
           "SpMove": [
             {
               "Id": 38048,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -591009,6 +591426,7 @@
           "SpMove": [
             {
               "Id": 38049,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -605552,6 +605970,681 @@
         "isRidePet": 0
       },
       {
+        "Atk": 140,
+        "CharacterAttrParam": 0,
+        "Combo": 0,
+        "Def": 114,
+        "DefName": "卡鲁维德",
+        "EvolvFlag": 0,
+        "EvolvesTo": 0,
+        "EvolvingLv": 0,
+        "ExtraMoves": {
+          "Move": [
+            {
+              "Id": 38446,
+              "LearningLv": 76,
+              "Rec": 0,
+              "Tag": 0
+            }
+          ]
+        },
+        "FreeForbidden": 1,
+        "Gender": 0,
+        "HP": 168,
+        "ID": 4919,
+        "LearnableMoves": {
+          "Move": [
+            {
+              "Id": 10086,
+              "LearningLv": 1,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 20030,
+              "LearningLv": 5,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 33072,
+              "LearningLv": 9,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 33073,
+              "LearningLv": 13,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 20088,
+              "LearningLv": 17,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 38444,
+              "LearningLv": 21,
+              "Rec": 1,
+              "Tag": 1
+            },
+            {
+              "Id": 33075,
+              "LearningLv": 25,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 26625,
+              "LearningLv": 29,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 33076,
+              "LearningLv": 33,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 33077,
+              "LearningLv": 37,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 26626,
+              "LearningLv": 41,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 33078,
+              "LearningLv": 45,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 29386,
+              "LearningLv": 49,
+              "Rec": 1,
+              "Tag": 2
+            },
+            {
+              "Id": 33079,
+              "LearningLv": 53,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 29387,
+              "LearningLv": 57,
+              "Rec": 1,
+              "Tag": 3
+            },
+            {
+              "Id": 38445,
+              "LearningLv": 61,
+              "Rec": 1,
+              "Tag": 4
+            }
+          ]
+        },
+        "PetClass": 3580,
+        "RealId": 0,
+        "SpAtk": 70,
+        "SpDef": 114,
+        "Spd": 134,
+        "Support": 0,
+        "Transform": 0,
+        "Type": 226,
+        "Vip": 0,
+        "isFlyPet": 0,
+        "isRidePet": 0
+      },
+      {
+        "Atk": 70,
+        "CharacterAttrParam": 4,
+        "Combo": 0,
+        "Def": 107,
+        "DefName": "弗勒克斯",
+        "EvolvFlag": 0,
+        "EvolvesTo": 0,
+        "EvolvingLv": 0,
+        "ExtraMoves": {
+          "Move": [
+            {
+              "Id": 38449,
+              "LearningLv": 76,
+              "Rec": 0,
+              "Tag": 0
+            }
+          ]
+        },
+        "FreeForbidden": 1,
+        "Gender": 1,
+        "HP": 167,
+        "ID": 4920,
+        "LearnableMoves": {
+          "Move": [
+            {
+              "Id": 11019,
+              "LearningLv": 1,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 20530,
+              "LearningLv": 5,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 10075,
+              "LearningLv": 9,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 11053,
+              "LearningLv": 13,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 20058,
+              "LearningLv": 17,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 38447,
+              "LearningLv": 21,
+              "Rec": 1,
+              "Tag": 1
+            },
+            {
+              "Id": 11271,
+              "LearningLv": 25,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 22761,
+              "LearningLv": 29,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 13328,
+              "LearningLv": 33,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 34870,
+              "LearningLv": 37,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 27483,
+              "LearningLv": 41,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 34871,
+              "LearningLv": 45,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 29388,
+              "LearningLv": 49,
+              "Rec": 1,
+              "Tag": 2
+            },
+            {
+              "Id": 34872,
+              "LearningLv": 53,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 29389,
+              "LearningLv": 57,
+              "Rec": 1,
+              "Tag": 3
+            },
+            {
+              "Id": 38448,
+              "LearningLv": 61,
+              "Rec": 1,
+              "Tag": 4
+            }
+          ]
+        },
+        "PetClass": 3581,
+        "RealId": 0,
+        "SpAtk": 141,
+        "SpDef": 107,
+        "Spd": 133,
+        "Support": 0,
+        "Transform": 0,
+        "Type": 86,
+        "Vip": 0,
+        "isFlyPet": 0,
+        "isRidePet": 0
+      },
+      {
+        "Atk": 110,
+        "CharacterAttrParam": 4,
+        "Combo": 0,
+        "Def": 100,
+        "DefName": "天堂极龙兽",
+        "EvolvFlag": 0,
+        "EvolvesTo": 0,
+        "EvolvingLv": 0,
+        "ExtraMoves": {
+          "Move": [
+            {
+              "Id": 38452,
+              "LearningLv": 76,
+              "Rec": 0,
+              "Tag": 0
+            }
+          ]
+        },
+        "FreeForbidden": 1,
+        "Gender": 1,
+        "HP": 190,
+        "ID": 4921,
+        "LearnableMoves": {
+          "Move": [
+            {
+              "Id": 10047,
+              "LearningLv": 1,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 22660,
+              "LearningLv": 5,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 14897,
+              "LearningLv": 9,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 22661,
+              "LearningLv": 13,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 14935,
+              "LearningLv": 17,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 38450,
+              "LearningLv": 21,
+              "Rec": 1,
+              "Tag": 1
+            },
+            {
+              "Id": 22662,
+              "LearningLv": 25,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 14898,
+              "LearningLv": 29,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 22637,
+              "LearningLv": 33,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 35390,
+              "LearningLv": 37,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 27730,
+              "LearningLv": 41,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 35391,
+              "LearningLv": 45,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 29390,
+              "LearningLv": 49,
+              "Rec": 1,
+              "Tag": 2
+            },
+            {
+              "Id": 35392,
+              "LearningLv": 53,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 29391,
+              "LearningLv": 57,
+              "Rec": 1,
+              "Tag": 3
+            },
+            {
+              "Id": 38451,
+              "LearningLv": 61,
+              "Rec": 1,
+              "Tag": 4
+            }
+          ]
+        },
+        "PetClass": 3582,
+        "RealId": 0,
+        "SpAtk": 110,
+        "SpDef": 100,
+        "Spd": 100,
+        "Support": 0,
+        "Transform": 0,
+        "Type": 52,
+        "Vip": 0,
+        "isFlyPet": 0,
+        "isRidePet": 0
+      },
+      {
+        "Atk": 70,
+        "CharacterAttrParam": 4,
+        "Combo": 0,
+        "Def": 115,
+        "DefName": "墟婆",
+        "EvolvFlag": 0,
+        "EvolvesTo": 0,
+        "EvolvingLv": 0,
+        "ExtraMoves": {
+          "Move": [
+            {
+              "Id": 38459,
+              "LearningLv": 76,
+              "Rec": 0,
+              "Tag": 0
+            }
+          ]
+        },
+        "FreeForbidden": 1,
+        "Gender": 2,
+        "HP": 168,
+        "ID": 4922,
+        "LearnableMoves": {
+          "Move": [
+            {
+              "Id": 10001,
+              "LearningLv": 1,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 20168,
+              "LearningLv": 5,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 10003,
+              "LearningLv": 9,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 20618,
+              "LearningLv": 13,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 14290,
+              "LearningLv": 17,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 38457,
+              "LearningLv": 21,
+              "Rec": 1,
+              "Tag": 1
+            },
+            {
+              "Id": 20527,
+              "LearningLv": 25,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 10676,
+              "LearningLv": 29,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 24001,
+              "LearningLv": 33,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 33590,
+              "LearningLv": 37,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 26870,
+              "LearningLv": 41,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 33591,
+              "LearningLv": 45,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 29393,
+              "LearningLv": 49,
+              "Rec": 1,
+              "Tag": 2
+            },
+            {
+              "Id": 33592,
+              "LearningLv": 53,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 29394,
+              "LearningLv": 57,
+              "Rec": 1,
+              "Tag": 3
+            },
+            {
+              "Id": 38458,
+              "LearningLv": 61,
+              "Rec": 1,
+              "Tag": 4
+            }
+          ]
+        },
+        "PetClass": 3583,
+        "RealId": 0,
+        "SpAtk": 135,
+        "SpDef": 115,
+        "Spd": 132,
+        "Support": 0,
+        "Transform": 0,
+        "Type": 112,
+        "Vip": 0,
+        "isFlyPet": 0,
+        "isRidePet": 0
+      },
+      {
+        "Atk": 70,
+        "CharacterAttrParam": 4,
+        "Combo": 0,
+        "Def": 120,
+        "DefName": "莫缇",
+        "EvolvFlag": 0,
+        "EvolvesTo": 0,
+        "EvolvingLv": 0,
+        "ExtraMoves": {
+          "Move": [
+            {
+              "Id": 29398,
+              "LearningLv": 76,
+              "Rec": 0,
+              "Tag": 0
+            }
+          ]
+        },
+        "FreeForbidden": 1,
+        "Gender": 2,
+        "HP": 165,
+        "ID": 4923,
+        "LearnableMoves": {
+          "Move": [
+            {
+              "Id": 29403,
+              "LearningLv": 1,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 38464,
+              "LearningLv": 5,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 38465,
+              "LearningLv": 9,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 29395,
+              "LearningLv": 13,
+              "Rec": 1,
+              "Tag": 1
+            },
+            {
+              "Id": 37118,
+              "LearningLv": 17,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 37119,
+              "LearningLv": 21,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 29404,
+              "LearningLv": 25,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 37124,
+              "LearningLv": 29,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 37125,
+              "LearningLv": 33,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 29405,
+              "LearningLv": 37,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 36292,
+              "LearningLv": 41,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 36293,
+              "LearningLv": 45,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 29406,
+              "LearningLv": 49,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 29396,
+              "LearningLv": 53,
+              "Rec": 1,
+              "Tag": 2
+            },
+            {
+              "Id": 29397,
+              "LearningLv": 57,
+              "Rec": 1,
+              "Tag": 3
+            },
+            {
+              "Id": 38460,
+              "LearningLv": 61,
+              "Rec": 1,
+              "Tag": 4
+            }
+          ]
+        },
+        "PetClass": 3584,
+        "RealId": 0,
+        "SpAtk": 145,
+        "SpDef": 120,
+        "Spd": 125,
+        "Support": 0,
+        "Transform": 0,
+        "Type": 37,
+        "Vip": 0,
+        "isFlyPet": 0,
+        "isRidePet": 0
+      },
+      {
         "Atk": 110,
         "CharacterAttrParam": 4,
         "Combo": 0,
@@ -606787,54 +607880,63 @@
           "SpMove": [
             {
               "Id": 10823,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 10824,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 10825,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 20363,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 20364,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 13582,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 13583,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 13584,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 13585,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -625253,12 +626355,14 @@
           "SpMove": [
             {
               "Id": 14470,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 22403,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -640732,6 +641836,7 @@
           "SpMove": [
             {
               "Id": 24319,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -642334,12 +643439,14 @@
           "SpMove": [
             {
               "Id": 24319,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 17912,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -642473,12 +643580,14 @@
           "SpMove": [
             {
               "Id": 24319,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
             },
             {
               "Id": 17912,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 0,
               "tag": 0
@@ -660561,7 +661670,7 @@
               "Tag": 0
             },
             {
-              "Id": 30388,
+              "Id": 13178,
               "LearningLv": 80,
               "Rec": 0,
               "Tag": 0
@@ -675581,18 +676690,21 @@
           "SpMove": [
             {
               "Id": 24319,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 7,
               "tag": 0
             },
             {
               "Id": 17912,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 7,
               "tag": 0
             },
             {
               "Id": 18006,
+              "LearningLv": 0,
               "Rec": 0,
               "Tag": 7,
               "tag": 0
@@ -698754,6 +699866,156 @@
         "ID": 1400851,
         "PetClass": 0,
         "RealId": 147,
+        "SpAtk": 0,
+        "SpDef": 0,
+        "Spd": 0,
+        "Support": 0,
+        "Transform": 0,
+        "Type": 0,
+        "Vip": 0,
+        "isFlyPet": 0,
+        "isRidePet": 0
+      },
+      {
+        "Atk": 0,
+        "CharacterAttrParam": 0,
+        "Combo": 0,
+        "Def": 0,
+        "DefName": "风起流沙·阿莱克托",
+        "EvolvFlag": 0,
+        "EvolvesTo": 0,
+        "EvolvingLv": 0,
+        "FreeForbidden": 0,
+        "Gender": 0,
+        "HP": 0,
+        "ID": 1400852,
+        "PetClass": 0,
+        "RealId": 0,
+        "SpAtk": 0,
+        "SpDef": 0,
+        "Spd": 0,
+        "Support": 0,
+        "Transform": 0,
+        "Type": 0,
+        "Vip": 0,
+        "isFlyPet": 0,
+        "isRidePet": 0
+      },
+      {
+        "Atk": 0,
+        "CharacterAttrParam": 0,
+        "Combo": 0,
+        "Def": 0,
+        "DefName": "珍珠泡泡·星礼",
+        "EvolvFlag": 0,
+        "EvolvesTo": 0,
+        "EvolvingLv": 0,
+        "FreeForbidden": 0,
+        "Gender": 0,
+        "HP": 0,
+        "ID": 1400853,
+        "PetClass": 0,
+        "RealId": 0,
+        "SpAtk": 0,
+        "SpDef": 0,
+        "Spd": 0,
+        "Support": 0,
+        "Transform": 0,
+        "Type": 0,
+        "Vip": 0,
+        "isFlyPet": 0,
+        "isRidePet": 0
+      },
+      {
+        "Atk": 0,
+        "CharacterAttrParam": 0,
+        "Combo": 0,
+        "Def": 0,
+        "DefName": "龙渊镇座·乔特鲁德",
+        "EvolvFlag": 0,
+        "EvolvesTo": 0,
+        "EvolvingLv": 0,
+        "FreeForbidden": 0,
+        "Gender": 0,
+        "HP": 0,
+        "ID": 1400854,
+        "PetClass": 0,
+        "RealId": 0,
+        "SpAtk": 0,
+        "SpDef": 0,
+        "Spd": 0,
+        "Support": 0,
+        "Transform": 0,
+        "Type": 0,
+        "Vip": 0,
+        "isFlyPet": 0,
+        "isRidePet": 0
+      },
+      {
+        "Atk": 0,
+        "CharacterAttrParam": 0,
+        "Combo": 0,
+        "Def": 0,
+        "DefName": "四合囚都·莫缇",
+        "EvolvFlag": 0,
+        "EvolvesTo": 0,
+        "EvolvingLv": 0,
+        "FreeForbidden": 0,
+        "Gender": 0,
+        "HP": 0,
+        "ID": 1400855,
+        "PetClass": 0,
+        "RealId": 0,
+        "SpAtk": 0,
+        "SpDef": 0,
+        "Spd": 0,
+        "Support": 0,
+        "Transform": 0,
+        "Type": 0,
+        "Vip": 0,
+        "isFlyPet": 0,
+        "isRidePet": 0
+      },
+      {
+        "Atk": 0,
+        "CharacterAttrParam": 0,
+        "Combo": 0,
+        "Def": 0,
+        "DefName": "双仪极刃·卓尔布",
+        "EvolvFlag": 0,
+        "EvolvesTo": 0,
+        "EvolvingLv": 0,
+        "FreeForbidden": 0,
+        "Gender": 0,
+        "HP": 0,
+        "ID": 1400856,
+        "PetClass": 0,
+        "RealId": 0,
+        "SpAtk": 0,
+        "SpDef": 0,
+        "Spd": 0,
+        "Support": 0,
+        "Transform": 0,
+        "Type": 0,
+        "Vip": 0,
+        "isFlyPet": 0,
+        "isRidePet": 0
+      },
+      {
+        "Atk": 0,
+        "CharacterAttrParam": 0,
+        "Combo": 0,
+        "Def": 0,
+        "DefName": "黄泉秘影·阴灵魂姬",
+        "EvolvFlag": 0,
+        "EvolvesTo": 0,
+        "EvolvingLv": 0,
+        "FreeForbidden": 0,
+        "Gender": 0,
+        "HP": 0,
+        "ID": 1400857,
+        "PetClass": 0,
+        "RealId": 0,
         "SpAtk": 0,
         "SpDef": 0,
         "Spd": 0,

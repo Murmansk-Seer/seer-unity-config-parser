@@ -3,25 +3,28 @@ import {
   text,
   int,
   type FieldSchema,
-} from "../utils/ConfigParserTemplate";
+} from '../utils/ConfigParserTemplate'
 
 export interface IAutoCardBuffWikiInfo {
-  id: number;
-  picture: string;
+  id: number
+  picture: string
 }
 
 export interface AutoCardBuffWikiConfig {
-  data?: IAutoCardBuffWikiInfo[];
+  data?: IAutoCardBuffWikiInfo[]
 }
 
 const autoCardBuffWikiInfoSchema: FieldSchema = [
-  ["id", int()],
-  ["picture", text()],
-];
+  ['id', int()],
+  ['picture', text()],
+]
 
-export const parseAutoCardBuffWikiConfig = createSimpleListParser<IAutoCardBuffWikiInfo, AutoCardBuffWikiConfig>({
-  name: "autoCardBuffWiki",
-  outputPath: "./json/autoCardBuffWiki.json",
-  dataKey: "data",
+export const parseAutoCardBuffWikiConfig = createSimpleListParser<
+  IAutoCardBuffWikiInfo,
+  AutoCardBuffWikiConfig
+>({
+  name: 'autoCardBuffWiki',
+  outputPath: './json/autoCardBuffWiki.json',
+  dataKey: 'data',
   itemSchema: autoCardBuffWikiInfoSchema,
-});
+})

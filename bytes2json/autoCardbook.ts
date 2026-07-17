@@ -3,31 +3,34 @@ import {
   text,
   int,
   type FieldSchema,
-} from "../utils/ConfigParserTemplate";
+} from '../utils/ConfigParserTemplate'
 
 export interface IAutoCardbookInfo {
-  BuffIcon: string;
-  CardRecom: string;
-  NatureId: number;
-  Title: string;
-  id: number;
+  BuffIcon: string
+  CardRecom: string
+  NatureId: number
+  Title: string
+  id: number
 }
 
 export interface AutoCardbookConfig {
-  data?: IAutoCardbookInfo[];
+  data?: IAutoCardbookInfo[]
 }
 
 const autoCardbookInfoSchema: FieldSchema = [
-  ["BuffIcon", text()],
-  ["CardRecom", text()],
-  ["NatureId", int()],
-  ["Title", text()],
-  ["id", int()],
-];
+  ['BuffIcon', text()],
+  ['CardRecom', text()],
+  ['NatureId', int()],
+  ['Title', text()],
+  ['id', int()],
+]
 
-export const parseAutoCardbookConfig = createSimpleListParser<IAutoCardbookInfo, AutoCardbookConfig>({
-  name: "autoCardbook",
-  outputPath: "./json/autoCardbook.json",
-  dataKey: "data",
+export const parseAutoCardbookConfig = createSimpleListParser<
+  IAutoCardbookInfo,
+  AutoCardbookConfig
+>({
+  name: 'autoCardbook',
+  outputPath: './json/autoCardbook.json',
+  dataKey: 'data',
   itemSchema: autoCardbookInfoSchema,
-});
+})
