@@ -37583,6 +37583,54 @@
       "speed": 7,
       "type": "foot",
       "wd": 1
+    },
+    {
+      "Bean": 0,
+      "Hide": 0,
+      "ID": 1301162,
+      "Max": 0,
+      "Name": "酷酷鲨头套",
+      "Sort": 2,
+      "UseMax": 0,
+      "VipOnly": 0,
+      "catID": 13,
+      "isSpecial": 0,
+      "purpose": 0,
+      "speed": 0,
+      "type": "head",
+      "wd": 1
+    },
+    {
+      "Bean": 0,
+      "Hide": 0,
+      "ID": 1301163,
+      "Max": 0,
+      "Name": "酷酷鲨手臂",
+      "Sort": 2,
+      "UseMax": 0,
+      "VipOnly": 0,
+      "catID": 13,
+      "isSpecial": 1,
+      "purpose": 0,
+      "speed": 0,
+      "type": "hand",
+      "wd": 1
+    },
+    {
+      "Bean": 0,
+      "Hide": 0,
+      "ID": 1301164,
+      "Max": 0,
+      "Name": "酷酷鲨鞋",
+      "Sort": 2,
+      "UseMax": 0,
+      "VipOnly": 0,
+      "catID": 13,
+      "isSpecial": 0,
+      "purpose": 0,
+      "speed": 7,
+      "type": "foot",
+      "wd": 1
     }
   ]
 }

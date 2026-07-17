@@ -15336,6 +15336,78 @@
           }
         ],
         "Type": 3
+      },
+      {
+        "Go": "app/FinalActivityPanel",
+        "GoType": "module",
+        "ID": 854,
+        "Jumptarget": 114107,
+        "MonID": 4186,
+        "Name": "龙渊镇座·乔特鲁德",
+        "SkinKind": [
+          {
+            "ID": 1,
+            "LifeTime": 0,
+            "SkinType": 0,
+            "Type": 2,
+            "Year": 0
+          }
+        ],
+        "Type": 18
+      },
+      {
+        "Go": "app/FinalActivityPanel",
+        "GoType": "module",
+        "ID": 855,
+        "Jumptarget": 202000,
+        "MonID": 4923,
+        "Name": "四合囚都·莫缇",
+        "SkinKind": [
+          {
+            "ID": 1,
+            "LifeTime": 0,
+            "SkinType": 0,
+            "Type": 2,
+            "Year": 0
+          }
+        ],
+        "Type": 3
+      },
+      {
+        "Go": "app/FinalActivityPanel",
+        "GoType": "module",
+        "ID": 856,
+        "Jumptarget": 204000,
+        "MonID": 4657,
+        "Name": "双仪极刃·卓尔布",
+        "SkinKind": [
+          {
+            "ID": 1,
+            "LifeTime": 0,
+            "SkinType": 15,
+            "Type": 2,
+            "Year": 0
+          }
+        ],
+        "Type": 15
+      },
+      {
+        "Go": "app/FinalActivityPanel",
+        "GoType": "module",
+        "ID": 857,
+        "Jumptarget": 410000,
+        "MonID": 3488,
+        "Name": "黄泉秘影·阴灵魂姬",
+        "SkinKind": [
+          {
+            "ID": 1,
+            "LifeTime": 0,
+            "SkinType": 0,
+            "Type": 2,
+            "Year": 0
+          }
+        ],
+        "Type": 3
       }
     ]
   }
