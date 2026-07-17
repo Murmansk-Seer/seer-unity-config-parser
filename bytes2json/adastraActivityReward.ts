@@ -3,29 +3,32 @@ import {
   text,
   int,
   type FieldSchema,
-} from "../utils/ConfigParserTemplate";
+} from '../utils/ConfigParserTemplate'
 
 export interface IAdastraActivityRewardInfo {
-  condition: number;
-  id: number;
-  reward: string;
-  type: number;
+  condition: number
+  id: number
+  reward: string
+  type: number
 }
 
 export interface AdastraActivityRewardConfig {
-  data?: IAdastraActivityRewardInfo[];
+  data?: IAdastraActivityRewardInfo[]
 }
 
 const adastraActivityRewardInfoSchema: FieldSchema = [
-  ["condition", int()],
-  ["id", int()],
-  ["reward", text()],
-  ["type", int()],
-];
+  ['condition', int()],
+  ['id', int()],
+  ['reward', text()],
+  ['type', int()],
+]
 
-export const parseAdastraActivityRewardConfig = createSimpleListParser<IAdastraActivityRewardInfo, AdastraActivityRewardConfig>({
-  name: "AdastraActivityReward",
-  outputPath: "./json/AdastraActivityReward.json",
-  dataKey: "data",
+export const parseAdastraActivityRewardConfig = createSimpleListParser<
+  IAdastraActivityRewardInfo,
+  AdastraActivityRewardConfig
+>({
+  name: 'AdastraActivityReward',
+  outputPath: './json/AdastraActivityReward.json',
+  dataKey: 'data',
   itemSchema: adastraActivityRewardInfoSchema,
-});
+})

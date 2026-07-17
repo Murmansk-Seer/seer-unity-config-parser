@@ -3,29 +3,32 @@ import {
   text,
   int,
   type FieldSchema,
-} from "../utils/ConfigParserTemplate";
+} from '../utils/ConfigParserTemplate'
 
 export interface IAdAstraStarAwardInfo {
-  id: number;
-  progress: number;
-  progressAward: string;
-  star: number;
+  id: number
+  progress: number
+  progressAward: string
+  star: number
 }
 
 export interface AdAstraStarAwardConfig {
-  data?: IAdAstraStarAwardInfo[];
+  data?: IAdAstraStarAwardInfo[]
 }
 
 const adAstraStarAwardInfoSchema: FieldSchema = [
-  ["id", int()],
-  ["progress", int()],
-  ["progressAward", text()],
-  ["star", int()],
-];
+  ['id', int()],
+  ['progress', int()],
+  ['progressAward', text()],
+  ['star', int()],
+]
 
-export const parseAdAstraStarAwardConfig = createSimpleListParser<IAdAstraStarAwardInfo, AdAstraStarAwardConfig>({
-  name: "AdAstraStarAward",
-  outputPath: "./json/AdAstraStarAward.json",
-  dataKey: "data",
+export const parseAdAstraStarAwardConfig = createSimpleListParser<
+  IAdAstraStarAwardInfo,
+  AdAstraStarAwardConfig
+>({
+  name: 'AdAstraStarAward',
+  outputPath: './json/AdAstraStarAward.json',
+  dataKey: 'data',
   itemSchema: adAstraStarAwardInfoSchema,
-});
+})

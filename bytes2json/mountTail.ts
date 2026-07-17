@@ -3,27 +3,30 @@ import {
   text,
   int,
   type FieldSchema,
-} from "../utils/ConfigParserTemplate";
+} from '../utils/ConfigParserTemplate'
 
 export interface IMountTailInfo {
-  coord: string;
-  id: number;
-  name: string;
+  coord: string
+  id: number
+  name: string
 }
 
 export interface MountTailConfig {
-  data?: IMountTailInfo[];
+  data?: IMountTailInfo[]
 }
 
 const mountTailInfoSchema: FieldSchema = [
-  ["coord", text()],
-  ["id", int()],
-  ["name", text()],
-];
+  ['coord', text()],
+  ['id', int()],
+  ['name', text()],
+]
 
-export const parseMountTailConfig = createSimpleListParser<IMountTailInfo, MountTailConfig>({
-  name: "mount_tail",
-  outputPath: "./json/mount_tail.json",
-  dataKey: "data",
+export const parseMountTailConfig = createSimpleListParser<
+  IMountTailInfo,
+  MountTailConfig
+>({
+  name: 'mount_tail',
+  outputPath: './json/mount_tail.json',
+  dataKey: 'data',
   itemSchema: mountTailInfoSchema,
-});
+})

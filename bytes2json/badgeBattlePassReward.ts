@@ -3,31 +3,34 @@ import {
   text,
   int,
   type FieldSchema,
-} from "../utils/ConfigParserTemplate";
+} from '../utils/ConfigParserTemplate'
 
 export interface IBadgeBattlePassRewardInfo {
-  diamondnum: number;
-  exp: number;
-  freereward: string;
-  id: number;
-  paidreward: string;
+  diamondnum: number
+  exp: number
+  freereward: string
+  id: number
+  paidreward: string
 }
 
 export interface BadgeBattlePassRewardConfig {
-  data?: IBadgeBattlePassRewardInfo[];
+  data?: IBadgeBattlePassRewardInfo[]
 }
 
 const badgeBattlePassRewardInfoSchema: FieldSchema = [
-  ["diamondnum", int()],
-  ["exp", int()],
-  ["freereward", text()],
-  ["id", int()],
-  ["paidreward", text()],
-];
+  ['diamondnum', int()],
+  ['exp', int()],
+  ['freereward', text()],
+  ['id', int()],
+  ['paidreward', text()],
+]
 
-export const parseBadgeBattlePassRewardConfig = createSimpleListParser<IBadgeBattlePassRewardInfo, BadgeBattlePassRewardConfig>({
-  name: "badgeBattlePass_reward",
-  outputPath: "./json/badgeBattlePass_reward.json",
-  dataKey: "data",
+export const parseBadgeBattlePassRewardConfig = createSimpleListParser<
+  IBadgeBattlePassRewardInfo,
+  BadgeBattlePassRewardConfig
+>({
+  name: 'badgeBattlePass_reward',
+  outputPath: './json/badgeBattlePass_reward.json',
+  dataKey: 'data',
   itemSchema: badgeBattlePassRewardInfoSchema,
-});
+})

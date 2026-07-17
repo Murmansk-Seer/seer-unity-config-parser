@@ -3,35 +3,38 @@ import {
   text,
   int,
   type FieldSchema,
-} from "../utils/ConfigParserTemplate";
+} from '../utils/ConfigParserTemplate'
 
 export interface IAdAstraLevelInfo {
-  banPet: string;
-  bossID: string;
-  condition: string;
-  firstAward: string;
-  id: number;
-  levelName: string;
-  type: number;
+  banPet: string
+  bossID: string
+  condition: string
+  firstAward: string
+  id: number
+  levelName: string
+  type: number
 }
 
 export interface AdAstraLevelConfig {
-  data?: IAdAstraLevelInfo[];
+  data?: IAdAstraLevelInfo[]
 }
 
 const adAstraLevelInfoSchema: FieldSchema = [
-  ["banPet", text()],
-  ["bossID", text()],
-  ["condition", text()],
-  ["firstAward", text()],
-  ["id", int()],
-  ["levelName", text()],
-  ["type", int()],
-];
+  ['banPet', text()],
+  ['bossID', text()],
+  ['condition', text()],
+  ['firstAward', text()],
+  ['id', int()],
+  ['levelName', text()],
+  ['type', int()],
+]
 
-export const parseAdAstraLevelConfig = createSimpleListParser<IAdAstraLevelInfo, AdAstraLevelConfig>({
-  name: "AdAstraLevel",
-  outputPath: "./json/AdAstraLevel.json",
-  dataKey: "data",
+export const parseAdAstraLevelConfig = createSimpleListParser<
+  IAdAstraLevelInfo,
+  AdAstraLevelConfig
+>({
+  name: 'AdAstraLevel',
+  outputPath: './json/AdAstraLevel.json',
+  dataKey: 'data',
   itemSchema: adAstraLevelInfoSchema,
-});
+})

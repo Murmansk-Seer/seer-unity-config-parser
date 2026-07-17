@@ -3,32 +3,32 @@ import {
   text,
   int,
   type FieldSchema,
-} from "../utils/ConfigParserTemplate";
+} from '../utils/ConfigParserTemplate'
 
 export interface IAutocardEffectIconDesInfo {
-  des: string;
-  name: string;
-  resourceName: string;
-  id: number;
+  des: string
+  name: string
+  resourceName: string
+  id: number
 }
 
 export interface AutocardEffectIconDesConfig {
-  data?: IAutocardEffectIconDesInfo[];
+  data?: IAutocardEffectIconDesInfo[]
 }
 
 const autocardEffectIconDesInfoSchema: FieldSchema = [
-  ["des", text()],
-  ["id", int()],
-  ["name", text()],
-  ["resourceName", text()],
-];
+  ['des', text()],
+  ['id', int()],
+  ['name', text()],
+  ['resourceName', text()],
+]
 
 export const parseAutocardEffectIconDesConfig = createSimpleListParser<
   IAutocardEffectIconDesInfo,
   AutocardEffectIconDesConfig
 >({
-  name: "autocardEffectIconDes",
-  outputPath: "./json/autocardEffectIconDes.json",
-  dataKey: "data",
+  name: 'autocardEffectIconDes',
+  outputPath: './json/autocardEffectIconDes.json',
+  dataKey: 'data',
   itemSchema: autocardEffectIconDesInfoSchema,
-});
+})

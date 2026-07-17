@@ -3,25 +3,28 @@ import {
   text,
   int,
   type FieldSchema,
-} from "../utils/ConfigParserTemplate";
+} from '../utils/ConfigParserTemplate'
 
 export interface ILoginGiftInfo {
-  drop_list: string;
-  id: number;
+  drop_list: string
+  id: number
 }
 
 export interface LoginGiftConfig {
-  data?: ILoginGiftInfo[];
+  data?: ILoginGiftInfo[]
 }
 
 const loginGiftInfoSchema: FieldSchema = [
-  ["drop_list", text()],
-  ["id", int()],
-];
+  ['drop_list', text()],
+  ['id', int()],
+]
 
-export const parseLoginGiftConfig = createSimpleListParser<ILoginGiftInfo, LoginGiftConfig>({
-  name: "LoginGift",
-  outputPath: "./json/LoginGift.json",
-  dataKey: "data",
+export const parseLoginGiftConfig = createSimpleListParser<
+  ILoginGiftInfo,
+  LoginGiftConfig
+>({
+  name: 'LoginGift',
+  outputPath: './json/LoginGift.json',
+  dataKey: 'data',
   itemSchema: loginGiftInfoSchema,
-});
+})

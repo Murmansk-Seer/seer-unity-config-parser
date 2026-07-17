@@ -3,44 +3,44 @@ import {
   parseBySchema,
   int,
   type FieldSchema,
-} from "../utils/ConfigParserTemplate";
+} from '../utils/ConfigParserTemplate'
 
 export interface IWishskinItem {
-  MonID: number;
-  PetSkinID: number;
-  WishskinID: number;
+  MonID: number
+  PetSkinID: number
+  WishskinID: number
 }
 
 export interface IWishskins {
-  Wishskin?: IWishskinItem[];
+  Wishskin?: IWishskinItem[]
 }
 
 export interface IRootInterface {
-  Wishskins?: IWishskins;
+  Wishskins?: IWishskins
 }
 
 const wishskinItemSchema: FieldSchema = [
-  ["MonID", int()],
-  ["PetSkinID", int()],
-  ["WishskinID", int()],
-];
+  ['MonID', int()],
+  ['PetSkinID', int()],
+  ['WishskinID', int()],
+]
 
 export const parseWishskinConfig = createConfigParser<IRootInterface>({
-  name: "Wishskin",
-  outputPath: "./json/Wishskin.json",
+  name: 'Wishskin',
+  outputPath: './json/Wishskin.json',
   parse: (reader) => {
-    const result: IRootInterface = {};
+    const result: IRootInterface = {}
     if (reader.boolean()) {
-      const wishskins: IWishskins = {};
+      const wishskins: IWishskins = {}
       if (reader.boolean()) {
-        const count = reader.int();
-        console.log("WishskinCount:", count);
+        const count = reader.int()
+        console.log('WishskinCount:', count)
         wishskins.Wishskin = Array.from({ length: count }, () =>
           parseBySchema<IWishskinItem>(reader, wishskinItemSchema),
-        );
+        )
       }
-      result.Wishskins = wishskins;
+      result.Wishskins = wishskins
     }
-    return result;
+    return result
   },
-});
+})
