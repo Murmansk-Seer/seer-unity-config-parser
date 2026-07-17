@@ -6,42 +6,42 @@ import {
   optionalArray,
   optionalArrayStruct,
   type FieldSchema,
-} from "../utils/ConfigParserTemplate";
+} from '../utils/ConfigParserTemplate'
 
 export interface IItemItem {
-  att: string;
-  cn: string;
-  en?: string[];
-  id: number;
-  is_dou: number;
+  att: string
+  cn: string
+  en?: string[]
+  id: number
+  is_dou: number
 }
 
 export interface IRoot {
-  item?: IItemItem[];
+  item?: IItemItem[]
 }
 
 export interface IRootInterface {
-  root?: IRoot;
+  root?: IRoot
 }
 
 const itemSchema: FieldSchema = [
-  ["att", text()],
-  ["cn", text()],
-  ["en", optionalArray("text")],
-  ["id", int()],
-  ["is_dou", int()],
-];
+  ['att', text()],
+  ['cn', text()],
+  ['en', optionalArray('text')],
+  ['id', int()],
+  ['is_dou', int()],
+]
 
-const rootSchema: FieldSchema = [["item", optionalArrayStruct(itemSchema)]];
+const rootSchema: FieldSchema = [['item', optionalArrayStruct(itemSchema)]]
 
 export const parseSkillTypesConfig = createConfigParser<IRootInterface>({
-  name: "skillTypes",
-  outputPath: "./json/skillTypes.json",
+  name: 'skillTypes',
+  outputPath: './json/skillTypes.json',
   parse: (reader) => {
-    const result: IRootInterface = {};
+    const result: IRootInterface = {}
     if (reader.boolean()) {
-      result.root = parseBySchema<IRoot>(reader, rootSchema);
+      result.root = parseBySchema<IRoot>(reader, rootSchema)
     }
-    return result;
+    return result
   },
-});
+})

@@ -128,6 +128,7 @@ import { parseActivityCenterBisaifuConfig } from "../bytes2json/activityCenterBi
 import { parseActivityCenterTestConfig } from "../bytes2json/activityCenterTest";
 import { parseActivityShopConfigConfig } from "../bytes2json/activityShopConfig";
 import { parseActivityTaskConfigConfig } from "../bytes2json/activityTaskConfig";
+import { parseActivityTimeUpdateConfig } from "../bytes2json/activityTimeUpdate";
 import { parseAdastraActivityRewardConfig } from "../bytes2json/adastraActivityReward";
 import { parseAdAstraConditionConfig } from "../bytes2json/adAstraCondition";
 import { parseAdAstraGalaxyConfig } from "../bytes2json/adAstraGalaxy";
@@ -174,6 +175,7 @@ import { parseWishpetConfig } from "../bytes2json/wishpet";
 import { parseWishpartConfig } from "../bytes2json/wishpart";
 import { parseWishskinConfig } from "../bytes2json/wishskin";
 import { parseWishsuitConfig } from "../bytes2json/wishsuit";
+import { parseWishMintmarkConfig } from "../bytes2json/wishMintmark";
 
 const failures: { name: string; error: string }[] = [];
 
@@ -599,6 +601,11 @@ safeRun("Activity_TaskConfig", () =>
     "./ConfigPackage/export/Activity_TaskConfig.bytes",
   ),
 );
+safeRun("Activity_TimeUpdateConfig", () =>
+  parseActivityTimeUpdateConfig(
+    "./ConfigPackage/export/Activity_TimeUpdateConfig.bytes",
+  ),
+);
 safeRun("AdastraActivityReward", () =>
   parseAdastraActivityRewardConfig(
     "./ConfigPackage/export/AdastraActivityReward.bytes",
@@ -757,6 +764,9 @@ safeRun("Wishskin", () =>
 );
 safeRun("Wishsuit", () =>
   parseWishsuitConfig("./ConfigPackage/export/Wishsuit.bytes"),
+);
+safeRun("WishMintmark", () =>
+  parseWishMintmarkConfig("./ConfigPackage/export/WishMintmark.bytes"),
 );
 
 async function sendFeishuAlert() {

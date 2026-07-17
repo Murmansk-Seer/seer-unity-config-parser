@@ -3,25 +3,28 @@ import {
   text,
   int,
   type FieldSchema,
-} from "../utils/ConfigParserTemplate";
+} from '../utils/ConfigParserTemplate'
 
 export interface IMonsterVideosInfo {
-  id: number;
-  name: string;
+  id: number
+  name: string
 }
 
 export interface MonsterVideosConfig {
-  data?: IMonsterVideosInfo[];
+  data?: IMonsterVideosInfo[]
 }
 
 const monsterVideosInfoSchema: FieldSchema = [
-  ["id", int()],
-  ["name", text()],
-];
+  ['id', int()],
+  ['name', text()],
+]
 
-export const parseMonsterVideosConfig = createSimpleListParser<IMonsterVideosInfo, MonsterVideosConfig>({
-  name: "monsterVideos",
-  outputPath: "./json/monsterVideos.json",
-  dataKey: "data",
+export const parseMonsterVideosConfig = createSimpleListParser<
+  IMonsterVideosInfo,
+  MonsterVideosConfig
+>({
+  name: 'monsterVideos',
+  outputPath: './json/monsterVideos.json',
+  dataKey: 'data',
   itemSchema: monsterVideosInfoSchema,
-});
+})

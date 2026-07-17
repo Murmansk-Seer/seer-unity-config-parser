@@ -4,48 +4,48 @@ import {
   text,
   int,
   type FieldSchema,
-} from "../utils/ConfigParserTemplate";
+} from '../utils/ConfigParserTemplate'
 
 export interface IWishpartItem {
-  PartItemID: number;
-  PartItemName: string;
-  PartItemType: string;
-  WishpartID: number;
-  WishrankID: number;
+  PartItemID: number
+  PartItemName: string
+  PartItemType: string
+  WishpartID: number
+  WishrankID: number
 }
 
 export interface IWishparts {
-  Wishpart?: IWishpartItem[];
+  Wishpart?: IWishpartItem[]
 }
 
 export interface IRootInterface {
-  Wishparts?: IWishparts;
+  Wishparts?: IWishparts
 }
 
 const wishpartItemSchema: FieldSchema = [
-  ["PartItemID", int()],
-  ["PartItemName", text()],
-  ["PartItemType", text()],
-  ["WishpartID", int()],
-  ["WishrankID", int()],
-];
+  ['PartItemID', int()],
+  ['PartItemName', text()],
+  ['PartItemType', text()],
+  ['WishpartID', int()],
+  ['WishrankID', int()],
+]
 
 export const parseWishpartConfig = createConfigParser<IRootInterface>({
-  name: "Wishpart",
-  outputPath: "./json/Wishpart.json",
+  name: 'Wishpart',
+  outputPath: './json/Wishpart.json',
   parse: (reader) => {
-    const result: IRootInterface = {};
+    const result: IRootInterface = {}
     if (reader.boolean()) {
-      const wishparts: IWishparts = {};
+      const wishparts: IWishparts = {}
       if (reader.boolean()) {
-        const count = reader.int();
-        console.log("WishpartCount:", count);
+        const count = reader.int()
+        console.log('WishpartCount:', count)
         wishparts.Wishpart = Array.from({ length: count }, () =>
           parseBySchema<IWishpartItem>(reader, wishpartItemSchema),
-        );
+        )
       }
-      result.Wishparts = wishparts;
+      result.Wishparts = wishparts
     }
-    return result;
+    return result
   },
-});
+})

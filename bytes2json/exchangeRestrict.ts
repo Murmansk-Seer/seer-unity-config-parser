@@ -3,25 +3,28 @@ import {
   text,
   int,
   type FieldSchema,
-} from "../utils/ConfigParserTemplate";
+} from '../utils/ConfigParserTemplate'
 
 export interface IExchangeRestrictInfo {
-  id: number;
-  key: string;
+  id: number
+  key: string
 }
 
 export interface ExchangeRestrictConfig {
-  data?: IExchangeRestrictInfo[];
+  data?: IExchangeRestrictInfo[]
 }
 
 const exchangeRestrictInfoSchema: FieldSchema = [
-  ["id", int()],
-  ["key", text()],
-];
+  ['id', int()],
+  ['key', text()],
+]
 
-export const parseExchangeRestrictConfig = createSimpleListParser<IExchangeRestrictInfo, ExchangeRestrictConfig>({
-  name: "exchangeRestrict",
-  outputPath: "./json/exchangeRestrict.json",
-  dataKey: "data",
+export const parseExchangeRestrictConfig = createSimpleListParser<
+  IExchangeRestrictInfo,
+  ExchangeRestrictConfig
+>({
+  name: 'exchangeRestrict',
+  outputPath: './json/exchangeRestrict.json',
+  dataKey: 'data',
   itemSchema: exchangeRestrictInfoSchema,
-});
+})

@@ -3,30 +3,30 @@ import {
   text,
   int,
   type FieldSchema,
-} from "../utils/ConfigParserTemplate";
+} from '../utils/ConfigParserTemplate'
 
 export interface IAutocardConditionInfo {
-  param: string;
-  paramDes: string;
-  id: number;
+  param: string
+  paramDes: string
+  id: number
 }
 
 export interface AutocardConditionConfig {
-  data?: IAutocardConditionInfo[];
+  data?: IAutocardConditionInfo[]
 }
 
 const autocardConditionInfoSchema: FieldSchema = [
-  ["id", int()],
-  ["param", text()],
-  ["paramDes", text()],
-];
+  ['id', int()],
+  ['param', text()],
+  ['paramDes', text()],
+]
 
 export const parseAutocardConditionConfig = createSimpleListParser<
   IAutocardConditionInfo,
   AutocardConditionConfig
 >({
-  name: "autocardCondition",
-  outputPath: "./json/autocardCondition.json",
-  dataKey: "data",
+  name: 'autocardCondition',
+  outputPath: './json/autocardCondition.json',
+  dataKey: 'data',
   itemSchema: autocardConditionInfoSchema,
-});
+})

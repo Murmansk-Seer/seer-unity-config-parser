@@ -3,34 +3,34 @@ import {
   int,
   optionalArray,
   type FieldSchema,
-} from "../utils/ConfigParserTemplate";
+} from '../utils/ConfigParserTemplate'
 
 export interface IPvpBanInfo {
-  id: number;
-  name?: number[];
-  quantity: number;
-  subkey: number;
-  type: number;
+  id: number
+  name?: number[]
+  quantity: number
+  subkey: number
+  type: number
 }
 
 export interface IRootInterface {
-  data?: IPvpBanInfo[];
+  data?: IPvpBanInfo[]
 }
 
 const pvpBanInfoSchema: FieldSchema = [
-  ["id", int()],
-  ["name", optionalArray("int")],
-  ["quantity", int()],
-  ["subkey", int()],
-  ["type", int()],
-];
+  ['id', int()],
+  ['name', optionalArray('int')],
+  ['quantity', int()],
+  ['subkey', int()],
+  ['type', int()],
+]
 
 export const parsePvpBanConfig = createSimpleListParser<
   IPvpBanInfo,
   IRootInterface
 >({
-  name: "pvp_ban",
-  outputPath: "./json/pvp_ban.json",
-  dataKey: "data",
+  name: 'pvp_ban',
+  outputPath: './json/pvp_ban.json',
+  dataKey: 'data',
   itemSchema: pvpBanInfoSchema,
-});
+})

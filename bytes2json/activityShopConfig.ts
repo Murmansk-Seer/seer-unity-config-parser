@@ -4,52 +4,52 @@ import {
   int,
   long,
   type FieldSchema,
-} from "../utils/ConfigParserTemplate";
+} from '../utils/ConfigParserTemplate'
 
 export interface IActivityShopConfigInfo {
-  activityid: number;
-  commodity: string;
-  consumeitemid: number;
-  exchangeID: number;
-  id: number;
-  limit: number;
-  price: number;
-  quantity: number;
-  shoptype: string;
-  sort: number;
-  timeend: number;
-  timelimit: number;
-  timestart: number;
-  userinfo: number;
+  activityid: number
+  commodity: string
+  consumeitemid: number
+  exchangeID: number
+  id: number
+  limit: number
+  price: number
+  quantity: number
+  shoptype: string
+  sort: number
+  timeend: number
+  timelimit: number
+  timestart: number
+  userinfo: number
 }
 
 export interface ActivityShopConfigConfig {
-  data?: IActivityShopConfigInfo[];
+  data?: IActivityShopConfigInfo[]
 }
 
 const activityShopConfigInfoSchema: FieldSchema = [
-  ["activityid", int()],
-  ["commodity", text()],
-  ["consumeitemid", int()],
-  ["exchangeID", int()],
-  ["id", int()],
-  ["limit", int()],
-  ["price", int()],
-  ["quantity", int()],
-  ["shoptype", text()],
-  ["sort", int()],
-  ["timeend", long()],
-  ["timelimit", int()],
-  ["timestart", int()],
-  ["userinfo", int()],
-];
+  ['activityid', int()],
+  ['commodity', text()],
+  ['consumeitemid', int()],
+  ['exchangeID', int()],
+  ['id', int()],
+  ['limit', int()],
+  ['price', int()],
+  ['quantity', int()],
+  ['shoptype', text()],
+  ['sort', int()],
+  ['timeend', long()],
+  ['timelimit', int()],
+  ['timestart', int()],
+  ['userinfo', int()],
+]
 
 export const parseActivityShopConfigConfig = createSimpleListParser<
   IActivityShopConfigInfo,
   ActivityShopConfigConfig
 >({
-  name: "Activity_ShopConfig",
-  outputPath: "./json/Activity_ShopConfig.json",
-  dataKey: "data",
+  name: 'Activity_ShopConfig',
+  outputPath: './json/Activity_ShopConfig.json',
+  dataKey: 'data',
   itemSchema: activityShopConfigInfoSchema,
-});
+})
