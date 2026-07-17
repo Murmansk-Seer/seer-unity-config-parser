@@ -12,6 +12,7 @@ import type { BytesReader } from '../utils/BytesReader'
 
 export interface ISpMoveItem {
   Id: number
+  LearningLv: number
   Rec: number
   Tag: number
   tag: number
@@ -71,6 +72,7 @@ export interface IRootInterface {
 
 const spMoveItemSchema: FieldSchema = [
   ['Id', int()],
+  ['LearningLv', int()],
   ['Rec', int()],
   ['Tag', int()],
   ['tag', int()],
