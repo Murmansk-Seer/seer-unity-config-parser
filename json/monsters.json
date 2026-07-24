@@ -481717,6 +481717,29 @@
         "HP": 170,
         "ID": 4004,
         "LearnableMoves": {
+          "AdvMove": [
+            {
+              "Id": 38471,
+              "LearningLv": 0,
+              "Rec": 0,
+              "Tag": 1,
+              "tag": 0
+            },
+            {
+              "Id": 29412,
+              "LearningLv": 0,
+              "Rec": 0,
+              "Tag": 3,
+              "tag": 0
+            },
+            {
+              "Id": 38472,
+              "LearningLv": 0,
+              "Rec": 0,
+              "Tag": 4,
+              "tag": 0
+            }
+          ],
           "Move": [
             {
               "Id": 10006,
@@ -481820,6 +481843,16 @@
         "RealId": 0,
         "SpAtk": 70,
         "SpDef": 114,
+        "SpExtraMoves": {
+          "Move": [
+            {
+              "Id": 38473,
+              "LearningLv": 76,
+              "Rec": 0,
+              "Tag": 0
+            }
+          ]
+        },
         "Spd": 135,
         "Support": 0,
         "Transform": 0,
@@ -606645,6 +606678,282 @@
         "isRidePet": 0
       },
       {
+        "Atk": 146,
+        "CharacterAttrParam": 0,
+        "Combo": 0,
+        "Def": 117,
+        "DefName": "米罗博士",
+        "EvolvFlag": 0,
+        "EvolvesTo": 0,
+        "EvolvingLv": 0,
+        "ExtraMoves": {
+          "Move": [
+            {
+              "Id": 29409,
+              "LearningLv": 76,
+              "Rec": 0,
+              "Tag": 0
+            }
+          ]
+        },
+        "FreeForbidden": 1,
+        "Gender": 2,
+        "HP": 162,
+        "ID": 4925,
+        "LearnableMoves": {
+          "Move": [
+            {
+              "Id": 10001,
+              "LearningLv": 1,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 20020,
+              "LearningLv": 5,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 11025,
+              "LearningLv": 9,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 20296,
+              "LearningLv": 13,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 10114,
+              "LearningLv": 17,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 38466,
+              "LearningLv": 21,
+              "Rec": 1,
+              "Tag": 1
+            },
+            {
+              "Id": 20570,
+              "LearningLv": 25,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 11150,
+              "LearningLv": 29,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 20571,
+              "LearningLv": 33,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 11151,
+              "LearningLv": 37,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 20572,
+              "LearningLv": 41,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 10680,
+              "LearningLv": 45,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 29407,
+              "LearningLv": 49,
+              "Rec": 1,
+              "Tag": 2
+            },
+            {
+              "Id": 20573,
+              "LearningLv": 53,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 29408,
+              "LearningLv": 57,
+              "Rec": 1,
+              "Tag": 3
+            },
+            {
+              "Id": 38467,
+              "LearningLv": 61,
+              "Rec": 1,
+              "Tag": 4
+            }
+          ]
+        },
+        "PetClass": 3586,
+        "RealId": 0,
+        "SpAtk": 70,
+        "SpDef": 117,
+        "Spd": 133,
+        "Support": 0,
+        "Transform": 0,
+        "Type": 21,
+        "Vip": 0,
+        "isFlyPet": 0,
+        "isRidePet": 0
+      },
+      {
+        "Atk": 130,
+        "CharacterAttrParam": 0,
+        "Combo": 0,
+        "Def": 105,
+        "DefName": "酷酷鲨",
+        "EvolvFlag": 0,
+        "EvolvesTo": 0,
+        "EvolvingLv": 0,
+        "ExtraMoves": {
+          "Move": [
+            {
+              "Id": 38470,
+              "LearningLv": 76,
+              "Rec": 0,
+              "Tag": 0
+            }
+          ]
+        },
+        "FreeForbidden": 1,
+        "Gender": 1,
+        "HP": 157,
+        "ID": 4926,
+        "LearnableMoves": {
+          "Move": [
+            {
+              "Id": 10011,
+              "LearningLv": 1,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 20004,
+              "LearningLv": 5,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 10074,
+              "LearningLv": 9,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 20039,
+              "LearningLv": 13,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 20018,
+              "LearningLv": 17,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 10075,
+              "LearningLv": 21,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 20040,
+              "LearningLv": 25,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 20011,
+              "LearningLv": 29,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 10076,
+              "LearningLv": 33,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 10015,
+              "LearningLv": 37,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 10024,
+              "LearningLv": 41,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 10038,
+              "LearningLv": 45,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 29410,
+              "LearningLv": 49,
+              "Rec": 1,
+              "Tag": 2
+            },
+            {
+              "Id": 29411,
+              "LearningLv": 53,
+              "Rec": 1,
+              "Tag": 3
+            },
+            {
+              "Id": 10077,
+              "LearningLv": 57,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 38468,
+              "LearningLv": 61,
+              "Rec": 1,
+              "Tag": 1
+            },
+            {
+              "Id": 38469,
+              "LearningLv": 71,
+              "Rec": 1,
+              "Tag": 4
+            }
+          ]
+        },
+        "PetClass": 3587,
+        "RealId": 0,
+        "SpAtk": 70,
+        "SpDef": 105,
+        "Spd": 133,
+        "Support": 0,
+        "Transform": 0,
+        "Type": 119,
+        "Vip": 0,
+        "isFlyPet": 0,
+        "isRidePet": 0
+      },
+      {
         "Atk": 110,
         "CharacterAttrParam": 4,
         "Combo": 0,
@@ -700016,6 +700325,56 @@
         "ID": 1400857,
         "PetClass": 0,
         "RealId": 0,
+        "SpAtk": 0,
+        "SpDef": 0,
+        "Spd": 0,
+        "Support": 0,
+        "Transform": 0,
+        "Type": 0,
+        "Vip": 0,
+        "isFlyPet": 0,
+        "isRidePet": 0
+      },
+      {
+        "Atk": 0,
+        "CharacterAttrParam": 0,
+        "Combo": 0,
+        "Def": 0,
+        "DefName": "深渊诡影·克劳里菲",
+        "EvolvFlag": 0,
+        "EvolvesTo": 0,
+        "EvolvingLv": 0,
+        "FreeForbidden": 0,
+        "Gender": 0,
+        "HP": 0,
+        "ID": 1400858,
+        "PetClass": 0,
+        "RealId": 0,
+        "SpAtk": 0,
+        "SpDef": 0,
+        "Spd": 0,
+        "Support": 0,
+        "Transform": 0,
+        "Type": 0,
+        "Vip": 0,
+        "isFlyPet": 0,
+        "isRidePet": 0
+      },
+      {
+        "Atk": 0,
+        "CharacterAttrParam": 0,
+        "Combo": 0,
+        "Def": 0,
+        "DefName": "波塞冬",
+        "EvolvFlag": 0,
+        "EvolvesTo": 0,
+        "EvolvingLv": 0,
+        "FreeForbidden": 0,
+        "Gender": 0,
+        "HP": 0,
+        "ID": 1400859,
+        "PetClass": 0,
+        "RealId": 2354,
         "SpAtk": 0,
         "SpDef": 0,
         "Spd": 0,

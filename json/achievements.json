@@ -8555,6 +8555,20 @@
                     "proicon": 1505,
                     "title": "虚空战士",
                     "titleColor": "0xFFFFFF"
+                  },
+                  {
+                    "AbilityTitle": 0,
+                    "AchievementPoint": 10,
+                    "Desc": "通关S-米罗博士【地狱难度】关卡获得",
+                    "ID": 16,
+                    "SpeNameBonus": 600,
+                    "Threshold": "16",
+                    "abtext": "",
+                    "achName": "古文明专家",
+                    "hide": 0,
+                    "proicon": 1510,
+                    "title": "古文明专家",
+                    "titleColor": "0xFFFFFF"
                   }
                 ],
                 "_text": "",

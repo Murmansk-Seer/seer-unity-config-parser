@@ -361,24 +361,6 @@
       "startdate": "2026/5/15/10"
     },
     {
-      "awakentype": 1,
-      "bosslevelid": 25,
-      "diamondid": 262474,
-      "enddate": "2026/7/3/10",
-      "exchangepercnt": 0,
-      "fragmentid": 0,
-      "fragmentnum": 0,
-      "id": 26,
-      "itemnum": 720,
-      "itemurl": 1728111,
-      "jumpparam": "1",
-      "limitid": "3107;3435;4262",
-      "monstername": "格劳恩斯",
-      "mosterurl": 3407,
-      "onekeyproductid": 262475,
-      "startdate": "2026/5/29/10"
-    },
-    {
       "awakentype": 2,
       "bosslevelid": 17,
       "diamondid": 261922,
@@ -413,6 +395,24 @@
       "mosterurl": 4186,
       "onekeyproductid": 262029,
       "startdate": "2026/7/17/10"
+    },
+    {
+      "awakentype": 1,
+      "bosslevelid": 26,
+      "diamondid": 262621,
+      "enddate": "2026/9/4/10",
+      "exchangepercnt": 0,
+      "fragmentid": 0,
+      "fragmentnum": 0,
+      "id": 27,
+      "itemnum": 720,
+      "itemurl": 1728310,
+      "jumpparam": "1",
+      "limitid": "3107;3435;4262",
+      "monstername": "圣光格劳瑞",
+      "mosterurl": 4004,
+      "onekeyproductid": 262622,
+      "startdate": "2026/7/24/10"
     }
   ]
 }
