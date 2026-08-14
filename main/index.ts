@@ -40,54 +40,41 @@ import { parseAutocardNatureConfig } from '../bytes2json/autocardNature'
 import { parseAutocardPlayerConfig } from '../bytes2json/autocardPlayer'
 import { parseAutoCardRecomConfig } from '../bytes2json/autoCardRecom'
 import { parseAutocardRoleConfig } from '../bytes2json/autocardRole'
+import { parseAutocardSeasonConfig } from '../bytes2json/autocardSeason'
+import { parseAutocardSeasonEffectConfig } from '../bytes2json/autocardSeasonEffect'
 import { parseAutocardSkinConfig } from '../bytes2json/autocardSkin'
 import { parseNewSeConfig } from '../bytes2json/newSe'
 import { parsePetFriendsConfig } from '../bytes2json/petFriends'
 import { parsePvpAchieveConfig } from '../bytes2json/pvpAchieve'
-import { parseBottlebonusConfig } from '../bytes2json/bottlebonus'
 import { parseBossInfoConfig } from '../bytes2json/bossInfo'
 import { parseBoxordinaryConfig } from '../bytes2json/boxordinary'
 import { parseBraveGuideConfig } from '../bytes2json/braveGuide'
 import { parseBraveLvConfig } from '../bytes2json/braveLv'
 import { parseBraveTaskConfig } from '../bytes2json/braveTask'
-import { parseBraveTowerConfig } from '../bytes2json/braveTower'
 import { parseChannelConfig } from '../bytes2json/channel'
 import { parseChapterConfig } from '../bytes2json/chapter'
 import { parseDailytaskConfig } from '../bytes2json/dailytask'
-import { parseBravechalltaskConfig } from '../bytes2json/bravechalltask'
-import { parseBravecommtaskConfig } from '../bytes2json/bravecommtask'
 import { parseBtlConditionConfig } from '../bytes2json/btlCondition'
 import { parseDailytaskGiftConfig } from '../bytes2json/dailytaskGift'
-import { parseDiamonBoxConfig } from '../bytes2json/diamonBox'
-import { parseDiamonTaskConfig } from '../bytes2json/diamonTask'
 import { parseDrinkcheckpointConfig } from '../bytes2json/drinkcheckpoint'
 import { parseDrinkrecipeConfig } from '../bytes2json/drinkrecipe'
 import { parseDungeonEnterConfig } from '../bytes2json/dungeonEnter'
 import { parseEmojiConfig } from '../bytes2json/emoji'
 import { parseEventScheduleConfig } from '../bytes2json/eventSchedule'
 import { parseExchangeCltConfig } from '../bytes2json/exchangeClt'
-import { parseExchangeRestrictConfig } from '../bytes2json/exchangeRestrict'
 import { parseExplorationRewardConfig } from '../bytes2json/explorationReward'
 import { parseExpressJumpConfig } from '../bytes2json/expressJump'
-import { parseExpTowerConfig } from '../bytes2json/expTower'
-import { parseFrameInfoConfig } from '../bytes2json/frameInfo'
 import { parseFurnitureConfig } from '../bytes2json/furniture'
-import { parseGainWayConfig } from '../bytes2json/gainWay'
 import { parseGlobalNumberConfig } from '../bytes2json/globalNumber'
 import { parseGlobalStrConfig } from '../bytes2json/globalStr'
 import { parseGuidePetRecommendConfig } from '../bytes2json/guidePetRecommend'
-import { parseH512thBoxConfig } from '../bytes2json/h512thBox'
-import { parseH512thTaskConfig } from '../bytes2json/h512thTask'
 import { parseHandbookBanConfig } from '../bytes2json/handbookBan'
 import { parseHelperConfig } from '../bytes2json/helper'
 import { parseHelpTipsConfig } from '../bytes2json/helpTips'
 import { parseJumptargetConfig } from '../bytes2json/jumptarget'
 import { parseLevelConditionConfig } from '../bytes2json/levelCondition'
-import { parseLearningpowerTowerConfig } from '../bytes2json/learningpowerTower'
-import { parseLimitUseItemInfoConfig } from '../bytes2json/limitUseItemInfo'
 import { parseLoginGiftConfig } from '../bytes2json/loginGift'
 import { parseMallrefreshConfig } from '../bytes2json/mallrefresh'
-import { parseMapdropConfig } from '../bytes2json/mapdrop'
 import { parseMatchGameConfig } from '../bytes2json/matchGame'
 import { parseMedaltaskConfig } from '../bytes2json/medaltask'
 import { parseMiniGameConfig } from '../bytes2json/miniGame'
@@ -104,7 +91,6 @@ import { parseNewSeerWelfareConfig } from '../bytes2json/newSeerWelfare'
 import { parseNewSetGameConfig } from '../bytes2json/newSetGame'
 import { parseNpcConfig } from '../bytes2json/npc'
 import { parsePopupConfig } from '../bytes2json/popup'
-import { parsePreferentialBestConfig } from '../bytes2json/preferentialBest'
 import { parsePrivateCostDiamondRewardConfig } from '../bytes2json/privateCostDiamondReward'
 import { parsePrivateShopConfig } from '../bytes2json/privateShop'
 import { parsePrivateSignConfig } from '../bytes2json/privateSign'
@@ -112,11 +98,8 @@ import { parsePrivateTrainExtraRewardConfig } from '../bytes2json/privateTrainEx
 import { parsePrivateTrainTaskConfig } from '../bytes2json/privateTrainTask'
 import { parsePveBossExperienceTrainingConfig } from '../bytes2json/pveBossExperienceTraining'
 import { parsePveBossLearningTrainingConfig } from '../bytes2json/pveBossLearningTraining'
-import { parsePveEnterConfig } from '../bytes2json/pveEnter'
-import { parsePvpBossConfigConfig } from '../bytes2json/pvpBossConfig'
 import { parsePvpExpertSeasonrankConfig } from '../bytes2json/pvpExpertSeasonrank'
 import { parsePvpHonorpantheonConfig } from '../bytes2json/pvpHonorpantheon'
-import { parsePvpMonsterConfigConfig } from '../bytes2json/pvpMonsterConfig'
 import { parsePvpQuizshopConfig } from '../bytes2json/pvpQuizshop'
 import { parsePvpQuiztaskConfig } from '../bytes2json/pvpQuiztask'
 import { parsePvpRaceConfig } from '../bytes2json/pvpRace'
@@ -128,20 +111,15 @@ import { parseActiveSortConfig } from '../bytes2json/activeSort'
 import { parseActiveSortBisaifuConfig } from '../bytes2json/activeSortBisaifu'
 import { parseActivityCenterConfig } from '../bytes2json/activityCenter'
 import { parseActivityCenterBisaifuConfig } from '../bytes2json/activityCenterBisaifu'
-import { parseActivityCenterTestConfig } from '../bytes2json/activityCenterTest'
 import { parseActivityShopConfigConfig } from '../bytes2json/activityShopConfig'
 import { parseActivityTaskConfigConfig } from '../bytes2json/activityTaskConfig'
 import { parseActivityTimeUpdateConfig } from '../bytes2json/activityTimeUpdate'
 import { parseAdastraActivityRewardConfig } from '../bytes2json/adastraActivityReward'
 import { parseAdAstraConditionConfig } from '../bytes2json/adAstraCondition'
 import { parseAdAstraGalaxyConfig } from '../bytes2json/adAstraGalaxy'
-import { parseAdAstraGalaxyGuoqingConfig } from '../bytes2json/adAstraGalaxyGuoqing'
-import { parseAdAstraGalaxyTempConfig } from '../bytes2json/adAstraGalaxyTemp'
 import { parseAdAstraLevelConfig } from '../bytes2json/adAstraLevel'
-import { parseAdAstraShopConfig } from '../bytes2json/adAstraShop'
 import { parseAdAstraStarAwardConfig } from '../bytes2json/adAstraStarAward'
 import { parseAnniversaryVaultConfig } from '../bytes2json/anniversaryVault'
-import { parseAnnouncementConfig } from '../bytes2json/announcement'
 import { parseArchivesBookConfig } from '../bytes2json/archivesBook'
 import { parseArchivesStoryConfig } from '../bytes2json/archivesStory'
 import { parseArchivesStoryTempConfig } from '../bytes2json/archivesStoryTemp'
@@ -158,10 +136,7 @@ import { parseAwakenbossbuffConfig } from '../bytes2json/awakenbossbuff'
 import { parseAwakenbossconfigConfig } from '../bytes2json/awakenbossconfig'
 import { parseAwakenbosslevelConfig } from '../bytes2json/awakenbosslevel'
 import { parseAwakenconditionConfig } from '../bytes2json/awakencondition'
-import { parseAwakenlevelConfig } from '../bytes2json/awakenlevel'
 import { parseAwakenlistConfig } from '../bytes2json/awakenlist'
-import { parseAwakentaskConfig } from '../bytes2json/awakentask'
-import { parseBackFlowTaskConfig } from '../bytes2json/backFlowTask'
 import { parseBadgeBattlePassRewardConfig } from '../bytes2json/badgeBattlePassReward'
 import { parseBadgeBattlePassTaskConfig } from '../bytes2json/badgeBattlePassTask'
 import { parseBagTowerEquipEffectConfig } from '../bytes2json/bagTowerEquipEffect'
@@ -313,6 +288,14 @@ safeRun('autoCardRecom', () => {
 safeRun('autocardRole', () => {
   parseAutocardRoleConfig('./ConfigPackage/export/autocardRole.bytes')
 })
+safeRun('autocardSeason', () => {
+  parseAutocardSeasonConfig('./ConfigPackage/export/autocardSeason.bytes')
+})
+safeRun('autocardSeasonEffect', () => {
+  parseAutocardSeasonEffectConfig(
+    './ConfigPackage/export/autocardSeasonEffect.bytes',
+  )
+})
 safeRun('autocardSkin', () => {
   parseAutocardSkinConfig('./ConfigPackage/export/autocardSkin.bytes')
 })
@@ -325,9 +308,6 @@ safeRun('pet_friends', () => {
 safeRun('pvp_achieve', () => {
   parsePvpAchieveConfig('./ConfigPackage/export/pvp_achieve.bytes')
 })
-safeRun('bottlebonus', () =>
-  parseBottlebonusConfig('./ConfigPackage/export/bottlebonus.bytes'),
-)
 safeRun('bossInfo', () =>
   parseBossInfoConfig('./ConfigPackage/export/bossInfo.bytes'),
 )
@@ -343,9 +323,6 @@ safeRun('brave_lv', () =>
 safeRun('brave_task', () =>
   parseBraveTaskConfig('./ConfigPackage/export/brave_task.bytes'),
 )
-safeRun('brave_tower', () =>
-  parseBraveTowerConfig('./ConfigPackage/export/brave_tower.bytes'),
-)
 safeRun('channel', () =>
   parseChannelConfig('./ConfigPackage/export/channel.bytes'),
 )
@@ -355,23 +332,11 @@ safeRun('chapter', () =>
 safeRun('dailytask', () =>
   parseDailytaskConfig('./ConfigPackage/export/dailytask.bytes'),
 )
-safeRun('Bravechalltask', () =>
-  parseBravechalltaskConfig('./ConfigPackage/export/Bravechalltask.bytes'),
-)
-safeRun('Bravecommtask', () =>
-  parseBravecommtaskConfig('./ConfigPackage/export/Bravecommtask.bytes'),
-)
 safeRun('btl_condition', () =>
   parseBtlConditionConfig('./ConfigPackage/export/btl_condition.bytes'),
 )
 safeRun('dailytask_gift', () =>
   parseDailytaskGiftConfig('./ConfigPackage/export/dailytask_gift.bytes'),
-)
-safeRun('diamon_box', () =>
-  parseDiamonBoxConfig('./ConfigPackage/export/diamon_box.bytes'),
-)
-safeRun('diamon_task', () =>
-  parseDiamonTaskConfig('./ConfigPackage/export/diamon_task.bytes'),
 )
 safeRun('drinkcheckpoint', () =>
   parseDrinkcheckpointConfig('./ConfigPackage/export/drinkcheckpoint.bytes'),
@@ -389,9 +354,6 @@ safeRun('eventSchedule', () =>
 safeRun('exchange_clt', () =>
   parseExchangeCltConfig('./ConfigPackage/export/exchange_clt.bytes'),
 )
-safeRun('exchangeRestrict', () =>
-  parseExchangeRestrictConfig('./ConfigPackage/export/exchangeRestrict.bytes'),
-)
 safeRun('ExplorationReward', () =>
   parseExplorationRewardConfig(
     './ConfigPackage/export/ExplorationReward.bytes',
@@ -400,17 +362,8 @@ safeRun('ExplorationReward', () =>
 safeRun('express_jump', () =>
   parseExpressJumpConfig('./ConfigPackage/export/express_jump.bytes'),
 )
-safeRun('exp_tower', () =>
-  parseExpTowerConfig('./ConfigPackage/export/exp_tower.bytes'),
-)
-safeRun('FrameInfo', () =>
-  parseFrameInfoConfig('./ConfigPackage/export/FrameInfo.bytes'),
-)
 safeRun('furniture', () =>
   parseFurnitureConfig('./ConfigPackage/export/furniture.bytes'),
-)
-safeRun('gainWay', () =>
-  parseGainWayConfig('./ConfigPackage/export/gainWay.bytes'),
 )
 safeRun('globalNumber', () =>
   parseGlobalNumberConfig('./ConfigPackage/export/globalNumber.bytes'),
@@ -422,12 +375,6 @@ safeRun('guidePetRecommend', () =>
   parseGuidePetRecommendConfig(
     './ConfigPackage/export/guidePetRecommend.bytes',
   ),
-)
-safeRun('h5_12th_box', () =>
-  parseH512thBoxConfig('./ConfigPackage/export/h5_12th_box.bytes'),
-)
-safeRun('h5_12th_task', () =>
-  parseH512thTaskConfig('./ConfigPackage/export/h5_12th_task.bytes'),
 )
 safeRun('handbook_ban', () =>
   parseHandbookBanConfig('./ConfigPackage/export/handbook_ban.bytes'),
@@ -444,22 +391,11 @@ safeRun('jumptarget', () =>
 safeRun('LevelCondition', () =>
   parseLevelConditionConfig('./ConfigPackage/export/LevelCondition.bytes'),
 )
-safeRun('learningpower_tower', () =>
-  parseLearningpowerTowerConfig(
-    './ConfigPackage/export/learningpower_tower.bytes',
-  ),
-)
-safeRun('LimitUseItemInfo', () =>
-  parseLimitUseItemInfoConfig('./ConfigPackage/export/LimitUseItemInfo.bytes'),
-)
 safeRun('LoginGift', () =>
   parseLoginGiftConfig('./ConfigPackage/export/LoginGift.bytes'),
 )
 safeRun('mallrefresh', () =>
   parseMallrefreshConfig('./ConfigPackage/export/mallrefresh.bytes'),
-)
-safeRun('mapdrop', () =>
-  parseMapdropConfig('./ConfigPackage/export/mapdrop.bytes'),
 )
 safeRun('match_game', () =>
   parseMatchGameConfig('./ConfigPackage/export/match_game.bytes'),
@@ -511,9 +447,6 @@ safeRun('newSetGame', () =>
 )
 safeRun('npc', () => parseNpcConfig('./ConfigPackage/export/npc.bytes'))
 safeRun('Popup', () => parsePopupConfig('./ConfigPackage/export/Popup.bytes'))
-safeRun('PreferentialBest', () =>
-  parsePreferentialBestConfig('./ConfigPackage/export/PreferentialBest.bytes'),
-)
 safeRun('privateCostDiamondReward', () =>
   parsePrivateCostDiamondRewardConfig(
     './ConfigPackage/export/privateCostDiamondReward.bytes',
@@ -544,12 +477,6 @@ safeRun('PveBossLearningTraining', () =>
     './ConfigPackage/export/PveBossLearningTraining.bytes',
   ),
 )
-safeRun('pveEnter', () =>
-  parsePveEnterConfig('./ConfigPackage/export/pveEnter.bytes'),
-)
-safeRun('pvp_BossConfig', () =>
-  parsePvpBossConfigConfig('./ConfigPackage/export/pvp_BossConfig.bytes'),
-)
 safeRun('pvp_expert_seasonrank', () =>
   parsePvpExpertSeasonrankConfig(
     './ConfigPackage/export/pvp_expert_seasonrank.bytes',
@@ -557,9 +484,6 @@ safeRun('pvp_expert_seasonrank', () =>
 )
 safeRun('pvp_honorpantheon', () =>
   parsePvpHonorpantheonConfig('./ConfigPackage/export/pvp_honorpantheon.bytes'),
-)
-safeRun('pvp_MonsterConfig', () =>
-  parsePvpMonsterConfigConfig('./ConfigPackage/export/pvp_MonsterConfig.bytes'),
 )
 safeRun('pvp_quizshop', () =>
   parsePvpQuizshopConfig('./ConfigPackage/export/pvp_quizshop.bytes'),
@@ -598,11 +522,6 @@ safeRun('ActivityCenter_bisaifu', () =>
     './ConfigPackage/export/ActivityCenter_bisaifu.bytes',
   ),
 )
-safeRun('ActivityCenter_test', () =>
-  parseActivityCenterTestConfig(
-    './ConfigPackage/export/ActivityCenter_test.bytes',
-  ),
-)
 safeRun('Activity_ShopConfig', () =>
   parseActivityShopConfigConfig(
     './ConfigPackage/export/Activity_ShopConfig.bytes',
@@ -629,30 +548,14 @@ safeRun('AdAstraCondition', () =>
 safeRun('AdAstraGalaxy', () =>
   parseAdAstraGalaxyConfig('./ConfigPackage/export/AdAstraGalaxy.bytes'),
 )
-safeRun('AdAstraGalaxy_guoqing', () =>
-  parseAdAstraGalaxyGuoqingConfig(
-    './ConfigPackage/export/AdAstraGalaxy_guoqing.bytes',
-  ),
-)
-safeRun('AdAstraGalaxy_temp', () =>
-  parseAdAstraGalaxyTempConfig(
-    './ConfigPackage/export/AdAstraGalaxy_temp.bytes',
-  ),
-)
 safeRun('AdAstraLevel', () =>
   parseAdAstraLevelConfig('./ConfigPackage/export/AdAstraLevel.bytes'),
-)
-safeRun('AdAstraShop', () =>
-  parseAdAstraShopConfig('./ConfigPackage/export/AdAstraShop.bytes'),
 )
 safeRun('AdAstraStarAward', () =>
   parseAdAstraStarAwardConfig('./ConfigPackage/export/AdAstraStarAward.bytes'),
 )
 safeRun('AnniversaryVault', () =>
   parseAnniversaryVaultConfig('./ConfigPackage/export/AnniversaryVault.bytes'),
-)
-safeRun('announcement', () =>
-  parseAnnouncementConfig('./ConfigPackage/export/announcement.bytes'),
 )
 safeRun('archivesBook', () =>
   parseArchivesBookConfig('./ConfigPackage/export/archivesBook.bytes'),
@@ -703,17 +606,8 @@ safeRun('awakenbosslevel', () =>
 safeRun('awakencondition', () =>
   parseAwakenconditionConfig('./ConfigPackage/export/awakencondition.bytes'),
 )
-safeRun('awakenlevel', () =>
-  parseAwakenlevelConfig('./ConfigPackage/export/awakenlevel.bytes'),
-)
 safeRun('awakenlist', () =>
   parseAwakenlistConfig('./ConfigPackage/export/awakenlist.bytes'),
-)
-safeRun('awakentask', () =>
-  parseAwakentaskConfig('./ConfigPackage/export/awakentask.bytes'),
-)
-safeRun('BackFlowTask', () =>
-  parseBackFlowTaskConfig('./ConfigPackage/export/BackFlowTask.bytes'),
 )
 safeRun('badgeBattlePass_reward', () =>
   parseBadgeBattlePassRewardConfig(
