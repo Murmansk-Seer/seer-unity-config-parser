@@ -6,18 +6,19 @@ import {
 } from '../utils/ConfigParserTemplate'
 
 export interface IPvpCostModeVoteInfo {
-  adjust: string
+  officialsetpet: string
+  adjust: number
   id: number
-  number: number
-  pool: number
+  previousresultshowtime: number
   ranklimit1: number
   ranklimit2: number
-  resultpet: string
+  previousresultpet: string
   time1: number
   time2: number
   time3: number
   type: number
   votepet: string
+  votenumber: number
 }
 
 export interface PvpCostModeVoteConfig {
@@ -25,17 +26,18 @@ export interface PvpCostModeVoteConfig {
 }
 
 const pvpCostModeVoteInfoSchema: FieldSchema = [
-  ['adjust', text()],
+  ['adjust', int()],
   ['id', int()],
-  ['number', int()],
-  ['pool', int()],
+  ['officialsetpet', text()],
+  ['previousresultpet', text()],
+  ['previousresultshowtime', int()],
   ['ranklimit1', int()],
   ['ranklimit2', int()],
-  ['resultpet', text()],
   ['time1', int()],
   ['time2', int()],
   ['time3', int()],
   ['type', int()],
+  ['votenumber', int()],
   ['votepet', text()],
 ]
 

@@ -10,7 +10,9 @@ export interface IPvpCostModeCostInfo {
   id: number
   name: string
   pet: string
-  subkey: string
+  time: string
+  subkeyMonth: number
+  subkeyTotal: number
 }
 
 export interface PvpCostModeCostConfig {
@@ -22,7 +24,9 @@ const pvpCostModeCostInfoSchema: FieldSchema = [
   ['id', int()],
   ['name', text()],
   ['pet', text()],
-  ['subkey', text()],
+  ['subkeyMonth', int()],
+  ['subkeyTotal', int()],
+  ['time', text()],
 ]
 
 export const parsePvpCostModeCostConfig = createSimpleListParser<
