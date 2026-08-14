@@ -1669,6 +1669,66 @@
       "portrait": "ruolan_fg",
       "scale": 1,
       "silhouette": 0
+    },
+    {
+      "CharacterID": 112,
+      "emoji": "clear_01",
+      "id": 163,
+      "initialposition": "",
+      "name": "克里L尔",
+      "portrait": "clear_fg",
+      "scale": 1,
+      "silhouette": 0
+    },
+    {
+      "CharacterID": 113,
+      "emoji": "",
+      "id": 169,
+      "initialposition": "",
+      "name": "蘑菇怪",
+      "portrait": "moguguai_hpx_fg",
+      "scale": 1,
+      "silhouette": 0
+    },
+    {
+      "CharacterID": 114,
+      "emoji": "",
+      "id": 170,
+      "initialposition": "",
+      "name": "里奥斯",
+      "portrait": "liaosi_xg_fg",
+      "scale": 1,
+      "silhouette": 0
+    },
+    {
+      "CharacterID": 115,
+      "emoji": "",
+      "id": 171,
+      "initialposition": "0,-100",
+      "name": "纳多雷",
+      "portrait": "xgnaduol_fg",
+      "scale": 1,
+      "silhouette": 0
+    },
+    {
+      "CharacterID": 116,
+      "emoji": "",
+      "id": 164,
+      "initialposition": "",
+      "name": "雷纳多",
+      "portrait": "xgrenaduo_fg",
+      "scale": 1,
+      "silhouette": 0
+    },
+    {
+      "CharacterID": 117,
+      "emoji": "",
+      "id": 173,
+      "initialposition": "",
+      "name": "魔狮迪露",
+      "portrait": "moshidly_fg",
+      "scale": 1,
+      "silhouette": 0
     }
   ]
 }
