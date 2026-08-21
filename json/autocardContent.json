@@ -5992,7 +5992,7 @@
       "health": 6,
       "id": 10066,
       "isUse": 1,
-      "level": 3,
+      "level": 2,
       "name": "泰瑞",
       "nature": 5,
       "picID": 403,
@@ -7057,7 +7057,7 @@
       "type": 1
     },
     {
-      "BuffId": "10097|10001",
+      "BuffId": "10098|10001",
       "BuffParam": "1|6_10_0_4_2_0",
       "CountNum": 0,
       "CountType": 0,
@@ -7274,7 +7274,7 @@
     },
     {
       "BuffId": "10020|10096|10150",
-      "BuffParam": "1|1|4_12_12",
+      "BuffParam": "1|1|4_10_10",
       "CountNum": 0,
       "CountType": 0,
       "Display": 0,
@@ -8666,7 +8666,7 @@
     },
     {
       "BuffId": "10100|10204",
-      "BuffParam": "1|4_16_16",
+      "BuffParam": "1|4_8_8",
       "CountNum": 0,
       "CountType": 0,
       "Display": 0,
