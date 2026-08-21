@@ -12,6 +12,7 @@ export interface IPvpCostModeVoteInfo {
   previousresultshowtime: number
   ranklimit1: number
   ranklimit2: number
+  subkey: number
   previousresultpet: string
   time1: number
   time2: number
@@ -33,6 +34,7 @@ const pvpCostModeVoteInfoSchema: FieldSchema = [
   ['previousresultshowtime', int()],
   ['ranklimit1', int()],
   ['ranklimit2', int()],
+  ['subkey', int()],
   ['time1', int()],
   ['time2', int()],
   ['time3', int()],
