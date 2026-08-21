@@ -16050,13 +16050,16 @@
       "hide": "",
       "id": 611,
       "image": "4200",
-      "isnew": "",
-      "moduleid": 0,
+      "isnew": "1",
+      "menutype": [
+        3
+      ],
+      "moduleid": -150138,
       "monsterid": 4200,
       "param": "",
       "quality": "",
       "recommendTime": "",
-      "sort": 0,
+      "sort": 100,
       "statlog": "",
       "upgrade": [
         2
@@ -24604,7 +24607,7 @@
       "hide": "2026_09_04 10:00:00",
       "id": 960,
       "image": "4931",
-      "isnew": "2026_08_14 10:00:00",
+      "isnew": "",
       "moduleid": -114123,
       "monsterid": 4931,
       "param": "",
@@ -24625,7 +24628,7 @@
       "hide": "2026_09_04 10:00:00",
       "id": 961,
       "image": "4930",
-      "isnew": "2026_09_04 10:00:00",
+      "isnew": "",
       "menutype": [
         4,
         1
@@ -24650,7 +24653,7 @@
       "hide": "",
       "id": 962,
       "image": "4932",
-      "isnew": "1",
+      "isnew": "",
       "menutype": [
         1
       ],
@@ -24674,13 +24677,61 @@
       "hide": "2026_09_04 10:00:00",
       "id": 963,
       "image": "4933",
-      "isnew": "2026_09_04 10:00:00",
+      "isnew": "",
       "menutype": [
         4,
         1
       ],
       "moduleid": -114121,
       "monsterid": 4933,
+      "param": "",
+      "quality": "",
+      "recommendTime": "",
+      "sort": 1,
+      "statlog": "",
+      "upgradeHide": "",
+      "upgradeNew": "",
+      "upgradeSort": 0,
+      "upgradeSource": 0,
+      "weekly": 0,
+      "weeklyAdd": 0
+    },
+    {
+      "difficult": 0,
+      "fightType": 1,
+      "hide": "",
+      "id": 964,
+      "image": "4935",
+      "isnew": "1",
+      "menutype": [
+        1
+      ],
+      "moduleid": 151,
+      "monsterid": 4935,
+      "param": "{Design:257}",
+      "quality": "s",
+      "recommendTime": "",
+      "sort": 2,
+      "statlog": "H5精灵因子关卡系统功能,苔岩·磐岳点击进入关卡_点击兑换",
+      "upgradeHide": "",
+      "upgradeNew": "",
+      "upgradeSort": 0,
+      "upgradeSource": 0,
+      "weekly": 0,
+      "weeklyAdd": 0
+    },
+    {
+      "difficult": 0,
+      "fightType": 0,
+      "hide": "",
+      "id": 965,
+      "image": "4936",
+      "isnew": "1",
+      "menutype": [
+        4936
+      ],
+      "moduleid": -114125,
+      "monsterid": 4936,
       "param": "",
       "quality": "",
       "recommendTime": "",
