@@ -8569,6 +8569,20 @@
                     "proicon": 1510,
                     "title": "古文明专家",
                     "titleColor": "0xFFFFFF"
+                  },
+                  {
+                    "AbilityTitle": 0,
+                    "AchievementPoint": 10,
+                    "Desc": "通关S-星光·雷纳多【地狱难度】关卡获得",
+                    "ID": 17,
+                    "SpeNameBonus": 601,
+                    "Threshold": "17",
+                    "abtext": "",
+                    "achName": "原型装甲",
+                    "hide": 0,
+                    "proicon": 1512,
+                    "title": "原型装甲",
+                    "titleColor": "0xFFFFFF"
                   }
                 ],
                 "_text": "",
@@ -18317,10 +18331,10 @@
                     "SpeNameBonus": 572,
                     "Threshold": "29",
                     "abtext": "防御+20，特防+20，速度+20，体力+90",
-                    "achName": "岁业祓除",
+                    "achName": "岁业拔除",
                     "hide": 0,
                     "proicon": 1469,
-                    "title": "岁业祓除",
+                    "title": "岁业拔除",
                     "titleColor": "0xFFFFFF"
                   },
                   {
