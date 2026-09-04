@@ -8583,6 +8583,20 @@
                     "proicon": 1512,
                     "title": "原型装甲",
                     "titleColor": "0xFFFFFF"
+                  },
+                  {
+                    "AbilityTitle": 0,
+                    "AchievementPoint": 10,
+                    "Desc": "通关S-王座守卫·古亚尼斯【地狱难度】关卡获得",
+                    "ID": 18,
+                    "SpeNameBonus": 602,
+                    "Threshold": "18",
+                    "abtext": "",
+                    "achName": "王座守卫",
+                    "hide": 0,
+                    "proicon": 1513,
+                    "title": "王座守卫",
+                    "titleColor": "0xFFFFFF"
                   }
                 ],
                 "_text": "",
@@ -12318,6 +12332,48 @@
                     "proicon": 1327,
                     "title": "",
                     "titleColor": ""
+                  },
+                  {
+                    "AbilityTitle": 0,
+                    "AchievementPoint": 15,
+                    "Desc": "任意赛季大师模式首次达成5连胜",
+                    "ID": 4,
+                    "SpeNameBonus": 0,
+                    "Threshold": "4",
+                    "abtext": "",
+                    "achName": "战皇·大师",
+                    "hide": 0,
+                    "proicon": 1514,
+                    "title": "",
+                    "titleColor": ""
+                  },
+                  {
+                    "AbilityTitle": 0,
+                    "AchievementPoint": 20,
+                    "Desc": "任意赛季大师模式首次达成10连胜",
+                    "ID": 5,
+                    "SpeNameBonus": 0,
+                    "Threshold": "5",
+                    "abtext": "",
+                    "achName": "战神·大师",
+                    "hide": 0,
+                    "proicon": 1515,
+                    "title": "",
+                    "titleColor": ""
+                  },
+                  {
+                    "AbilityTitle": 0,
+                    "AchievementPoint": 30,
+                    "Desc": "任意赛季大师模式首次达成30连胜",
+                    "ID": 6,
+                    "SpeNameBonus": 0,
+                    "Threshold": "6",
+                    "abtext": "",
+                    "achName": "不可能完成的任务·大师",
+                    "hide": 0,
+                    "proicon": 1516,
+                    "title": "",
+                    "titleColor": ""
                   }
                 ],
                 "_text": "",
@@ -12331,7 +12387,7 @@
                   {
                     "AbilityTitle": 0,
                     "AchievementPoint": 10,
-                    "Desc": "任意赛季竞技/休闲模式中进行1次对战",
+                    "Desc": "玩家在任意赛季非自由模式中进行1次对战",
                     "ID": 1,
                     "SpeNameBonus": 0,
                     "Threshold": "1",
@@ -12345,7 +12401,7 @@
                   {
                     "AbilityTitle": 0,
                     "AchievementPoint": 10,
-                    "Desc": "任意赛季竞技/休闲模式进行50次对战",
+                    "Desc": "玩家在任意赛季非自由模式中进行50次对战",
                     "ID": 2,
                     "SpeNameBonus": 0,
                     "Threshold": "2",
@@ -12359,7 +12415,7 @@
                   {
                     "AbilityTitle": 0,
                     "AchievementPoint": 10,
-                    "Desc": "任意赛季竞技/休闲模式进行500次对战",
+                    "Desc": "玩家在任意赛季非自由模式中进行500次对战",
                     "ID": 3,
                     "SpeNameBonus": 0,
                     "Threshold": "3",
@@ -12373,7 +12429,7 @@
                   {
                     "AbilityTitle": 0,
                     "AchievementPoint": 15,
-                    "Desc": "任意赛季竞技/休闲模式进行5000次对战",
+                    "Desc": "玩家在任意赛季非自由模式中进行5000次对战",
                     "ID": 4,
                     "SpeNameBonus": 0,
                     "Threshold": "4",
@@ -12396,7 +12452,7 @@
                   {
                     "AbilityTitle": 0,
                     "AchievementPoint": 10,
-                    "Desc": "任意赛季竞技模式首次达到猛将段位时获得",
+                    "Desc": "任意赛季竞技/大师模式首次达到猛将段位时获得",
                     "ID": 1,
                     "SpeNameBonus": 0,
                     "Threshold": "1",
@@ -12410,7 +12466,7 @@
                   {
                     "AbilityTitle": 0,
                     "AchievementPoint": 10,
-                    "Desc": "任意赛季竞技模式首次达到天骄段位时获得",
+                    "Desc": "任意赛季竞技/大师模式首次达到天骄段位时获得",
                     "ID": 2,
                     "SpeNameBonus": 0,
                     "Threshold": "2",
@@ -12424,7 +12480,7 @@
                   {
                     "AbilityTitle": 0,
                     "AchievementPoint": 10,
-                    "Desc": "任意赛季竞技模式首次达到王者段位时获得",
+                    "Desc": "任意赛季竞技/大师模式首次达到王者段位时获得",
                     "ID": 3,
                     "SpeNameBonus": 0,
                     "Threshold": "3",
@@ -12438,7 +12494,7 @@
                   {
                     "AbilityTitle": 0,
                     "AchievementPoint": 20,
-                    "Desc": "任意赛季竞技模式首次达到圣皇段位时获得",
+                    "Desc": "任意赛季竞技/大师模式首次达到圣皇段位时获得",
                     "ID": 4,
                     "SpeNameBonus": 0,
                     "Threshold": "4",
@@ -13030,7 +13086,7 @@
                   {
                     "AbilityTitle": 0,
                     "AchievementPoint": 0,
-                    "Desc": "S11赛季竞技/狂野模式中首次达到猛将段位时获得",
+                    "Desc": "S11赛季竞技/大师/狂野模式首次达到猛将段位获得",
                     "ID": 9,
                     "SpeNameBonus": 0,
                     "Threshold": "9",
@@ -13044,7 +13100,7 @@
                   {
                     "AbilityTitle": 0,
                     "AchievementPoint": 0,
-                    "Desc": "S11赛季竞技/狂野模式中首次达到天骄段位时获得",
+                    "Desc": "S11赛季竞技/大师/狂野模式首次达到天骄段位获得",
                     "ID": 10,
                     "SpeNameBonus": 0,
                     "Threshold": "10",
@@ -13058,7 +13114,7 @@
                   {
                     "AbilityTitle": 0,
                     "AchievementPoint": 0,
-                    "Desc": "S11赛季竞技/狂野模式中首次达到王者段位时获得",
+                    "Desc": "S11赛季竞技/大师/狂野模式首次达到王者段位获得",
                     "ID": 11,
                     "SpeNameBonus": 0,
                     "Threshold": "11",
@@ -13072,7 +13128,7 @@
                   {
                     "AbilityTitle": 0,
                     "AchievementPoint": 0,
-                    "Desc": "S11赛季竞技/狂野模式中首次达到圣皇段位时获得",
+                    "Desc": "S11赛季竞技/大师/狂野模式首次达到圣皇段位获得",
                     "ID": 12,
                     "SpeNameBonus": 0,
                     "Threshold": "12",
