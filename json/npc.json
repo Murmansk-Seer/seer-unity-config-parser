@@ -1613,7 +1613,7 @@
     {
       "CharacterID": 4913,
       "emoji": "",
-      "id": 161,
+      "id": 162,
       "initialposition": "",
       "name": "夏哆",
       "portrait": "shadow_fg",
@@ -1623,7 +1623,7 @@
     {
       "CharacterID": 4925,
       "emoji": "drmilo_01",
-      "id": 161,
+      "id": 163,
       "initialposition": "",
       "name": "米罗博士",
       "portrait": "drmilo_fg",
@@ -1633,7 +1633,7 @@
     {
       "CharacterID": 111,
       "emoji": "",
-      "id": 162,
+      "id": 164,
       "initialposition": "",
       "name": "噗纽",
       "portrait": "puniu_fg",
@@ -1673,7 +1673,7 @@
     {
       "CharacterID": 112,
       "emoji": "clear_01",
-      "id": 163,
+      "id": 168,
       "initialposition": "",
       "name": "克里L尔",
       "portrait": "clear_fg",
@@ -1713,7 +1713,7 @@
     {
       "CharacterID": 116,
       "emoji": "",
-      "id": 164,
+      "id": 172,
       "initialposition": "",
       "name": "雷纳多",
       "portrait": "xgrenaduo_fg",
@@ -1727,6 +1727,16 @@
       "initialposition": "",
       "name": "魔狮迪露",
       "portrait": "moshidly_fg",
+      "scale": 1,
+      "silhouette": 0
+    },
+    {
+      "CharacterID": 3406,
+      "emoji": "",
+      "id": 174,
+      "initialposition": "",
+      "name": "雷伊",
+      "portrait": "ray9_fg",
       "scale": 1,
       "silhouette": 0
     }
