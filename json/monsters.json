@@ -608449,6 +608449,306 @@
         "isRidePet": 0
       },
       {
+        "Atk": 140,
+        "CharacterAttrParam": 0,
+        "Combo": 0,
+        "Def": 114,
+        "DefName": "王座守卫·古亚尼斯",
+        "EvolvFlag": 0,
+        "EvolvesTo": 0,
+        "EvolvingLv": 0,
+        "ExtraMoves": {
+          "Move": [
+            {
+              "Id": 38518,
+              "LearningLv": 76,
+              "Rec": 0,
+              "Tag": 0
+            }
+          ]
+        },
+        "FreeForbidden": 1,
+        "Gender": 0,
+        "HP": 176,
+        "ID": 4940,
+        "LearnableMoves": {
+          "Move": [
+            {
+              "Id": 10001,
+              "LearningLv": 1,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 20196,
+              "LearningLv": 5,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 10454,
+              "LearningLv": 9,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 10455,
+              "LearningLv": 13,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 20013,
+              "LearningLv": 17,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 37731,
+              "LearningLv": 21,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 20127,
+              "LearningLv": 25,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 10106,
+              "LearningLv": 29,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 10459,
+              "LearningLv": 33,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 37732,
+              "LearningLv": 37,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 10456,
+              "LearningLv": 41,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 10460,
+              "LearningLv": 45,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 28929,
+              "LearningLv": 49,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 10457,
+              "LearningLv": 53,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 37733,
+              "LearningLv": 57,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 28930,
+              "LearningLv": 61,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 37734,
+              "LearningLv": 71,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 38516,
+              "LearningLv": 72,
+              "Rec": 1,
+              "Tag": 1
+            },
+            {
+              "Id": 29440,
+              "LearningLv": 73,
+              "Rec": 1,
+              "Tag": 2
+            },
+            {
+              "Id": 29441,
+              "LearningLv": 74,
+              "Rec": 1,
+              "Tag": 3
+            },
+            {
+              "Id": 38517,
+              "LearningLv": 75,
+              "Rec": 1,
+              "Tag": 4
+            }
+          ]
+        },
+        "PetClass": 3601,
+        "RealId": 0,
+        "SpAtk": 70,
+        "SpDef": 114,
+        "Spd": 126,
+        "Support": 0,
+        "Transform": 0,
+        "Type": 80,
+        "Vip": 0,
+        "isFlyPet": 0,
+        "isRidePet": 0
+      },
+      {
+        "Atk": 120,
+        "CharacterAttrParam": 0,
+        "Combo": 0,
+        "Def": 100,
+        "DefName": "瑞丁",
+        "EvolvFlag": 0,
+        "EvolvesTo": 0,
+        "EvolvingLv": 0,
+        "ExtraMoves": {
+          "Move": [
+            {
+              "Id": 38521,
+              "LearningLv": 76,
+              "Rec": 0,
+              "Tag": 0
+            }
+          ]
+        },
+        "FreeForbidden": 1,
+        "Gender": 1,
+        "HP": 174,
+        "ID": 4941,
+        "LearnableMoves": {
+          "Move": [
+            {
+              "Id": 10127,
+              "LearningLv": 1,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 20496,
+              "LearningLv": 5,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 13527,
+              "LearningLv": 9,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 14045,
+              "LearningLv": 13,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 20769,
+              "LearningLv": 17,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 38519,
+              "LearningLv": 21,
+              "Rec": 1,
+              "Tag": 1
+            },
+            {
+              "Id": 13532,
+              "LearningLv": 25,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 21021,
+              "LearningLv": 29,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 32820,
+              "LearningLv": 33,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 26502,
+              "LearningLv": 37,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 33083,
+              "LearningLv": 41,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 26629,
+              "LearningLv": 45,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 29442,
+              "LearningLv": 49,
+              "Rec": 1,
+              "Tag": 2
+            },
+            {
+              "Id": 26630,
+              "LearningLv": 53,
+              "Rec": 0,
+              "Tag": 0
+            },
+            {
+              "Id": 29443,
+              "LearningLv": 57,
+              "Rec": 1,
+              "Tag": 3
+            },
+            {
+              "Id": 38520,
+              "LearningLv": 61,
+              "Rec": 1,
+              "Tag": 4
+            }
+          ]
+        },
+        "PetClass": 3602,
+        "RealId": 0,
+        "SpAtk": 70,
+        "SpDef": 104,
+        "Spd": 132,
+        "Support": 0,
+        "Transform": 0,
+        "Type": 85,
+        "Vip": 0,
+        "isFlyPet": 0,
+        "isRidePet": 0
+      },
+      {
         "Atk": 110,
         "CharacterAttrParam": 4,
         "Combo": 0,
@@ -702086,6 +702386,31 @@
         "Combo": 0,
         "Def": 0,
         "DefName": "告死天使·莫蒂",
+        "EvolvFlag": 0,
+        "EvolvesTo": 0,
+        "EvolvingLv": 0,
+        "FreeForbidden": 0,
+        "Gender": 0,
+        "HP": 0,
+        "ID": 1400867,
+        "PetClass": 0,
+        "RealId": 0,
+        "SpAtk": 0,
+        "SpDef": 0,
+        "Spd": 0,
+        "Support": 0,
+        "Transform": 0,
+        "Type": 0,
+        "Vip": 0,
+        "isFlyPet": 0,
+        "isRidePet": 0
+      },
+      {
+        "Atk": 0,
+        "CharacterAttrParam": 0,
+        "Combo": 0,
+        "Def": 0,
+        "DefName": "龙墟寻迹·帕妮丝",
         "EvolvFlag": 0,
         "EvolvesTo": 0,
         "EvolvingLv": 0,
