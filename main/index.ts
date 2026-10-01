@@ -1,4 +1,6 @@
 import { sendTextMessage } from '../utils/feishu'
+import { existsSync } from 'node:fs'
+import { saveAsJson } from '../utils/ConfigParserTemplate'
 
 import { parseMonstersConfig } from '../bytes2json/monsters'
 import { parseBuffConfig } from '../bytes2json/buff'
@@ -576,9 +578,15 @@ safeRun('aurumEndgameOptionsConfig', () =>
 safeRun('autoCardbook', () =>
   parseAutoCardbookConfig('./ConfigPackage/export/autoCardbook.bytes'),
 )
-safeRun('autoCardBuffWiki', () =>
-  parseAutoCardBuffWikiConfig('./ConfigPackage/export/autoCardBuffWiki.bytes'),
-)
+if (existsSync('./ConfigPackage/export/autoCardBuffWiki.bytes')) {
+  safeRun('autoCardBuffWiki', () =>
+    parseAutoCardBuffWikiConfig('./ConfigPackage/export/autoCardBuffWiki.bytes'),
+  )
+} else {
+  // This optional legacy table is absent from the current official package.
+  saveAsJson({ data: [] }, './json/autoCardBuffWiki.json')
+  console.log('autoCardBuffWiki: 官方资源未提供，输出空表')
+}
 safeRun('autocardCV', () =>
   parseAutocardCVConfig('./ConfigPackage/export/autocardCV.bytes'),
 )

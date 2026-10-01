@@ -18,6 +18,7 @@ export interface IAutocardSkinInfo {
   jumpId: number
   rarity: number
   series: number
+  session: number
   stat: number
   type: number
 }
@@ -37,6 +38,7 @@ const autocardSkinInfoSchema: FieldSchema = [
   ['rarity', int()],
   ['resource', text()],
   ['series', int()],
+  ['session', int()],
   ['skinName', text()],
   ['stat', int()],
   ['tag', text()],
