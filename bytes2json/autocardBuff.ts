@@ -7,12 +7,15 @@ import {
 
 export interface IAutocardBuffInfo {
   effectIcon: string
-  object: string
-  param: string
-  paramDes: string
+  buffObject: string
+  buffParam: string
+  buffDes: string
   id: number
   IsDeathEffect: number
   IsPlaceEffect: number
+  IsBfBattleEffect: number
+  IsColdWaveEffect: number
+  IsGrowthEffect: number
 }
 
 export interface AutocardBuffConfig {
@@ -20,13 +23,16 @@ export interface AutocardBuffConfig {
 }
 
 const autocardBuffInfoSchema: FieldSchema = [
+  ['IsBfBattleEffect', int()],
+  ['IsColdWaveEffect', int()],
   ['IsDeathEffect', int()],
+  ['IsGrowthEffect', int()],
   ['IsPlaceEffect', int()],
+  ['buffDes', text()],
+  ['buffObject', text()],
+  ['buffParam', text()],
   ['effectIcon', text()],
   ['id', int()],
-  ['object', text()],
-  ['param', text()],
-  ['paramDes', text()],
 ]
 
 export const parseAutocardBuffConfig = createSimpleListParser<
