@@ -689,4 +689,8 @@ async function sendFeishuAlert() {
   }
 }
 
+if (process.env.PARSER_STRICT === '1' && failures.length > 0) {
+  process.exitCode = 1
+}
+
 sendFeishuAlert()
