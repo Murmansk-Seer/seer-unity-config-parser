@@ -8611,6 +8611,20 @@
                     "proicon": 1513,
                     "title": "王座守卫",
                     "titleColor": "0xFFFFFF"
+                  },
+                  {
+                    "AbilityTitle": 0,
+                    "AchievementPoint": 10,
+                    "Desc": "通关S-维德弗尼尔【地狱难度】关卡获得",
+                    "ID": 19,
+                    "SpeNameBonus": 609,
+                    "Threshold": "19",
+                    "abtext": "",
+                    "achName": "隐秘之翼",
+                    "hide": 0,
+                    "proicon": 1525,
+                    "title": "隐秘之翼",
+                    "titleColor": "0xFFFFFF"
                   }
                 ],
                 "_text": "",
