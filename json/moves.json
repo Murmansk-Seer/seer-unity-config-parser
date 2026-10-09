@@ -488741,6 +488741,258 @@
         {
           "Accuracy": 95,
           "AtkNum": 0,
+          "AtkType": 3,
+          "Category": 4,
+          "CritRate": 0,
+          "ID": 29468,
+          "MaxPP": 5,
+          "MonID": 0,
+          "MustHit": 1,
+          "Name": "阻隔风墙",
+          "Power": 0,
+          "Priority": 0,
+          "SideEffect": [
+            191,
+            128,
+            2161,
+            937
+          ],
+          "SideEffectArg": [
+            4,
+            4,
+            4,
+            -2,
+            -2,
+            -2,
+            -2,
+            0,
+            0,
+            1,
+            100,
+            100,
+            10,
+            2,
+            3
+          ],
+          "Type": 8,
+          "info": "免疫并反弹异常状态，将受到的伤害转化为体力，对手的能力开始下降",
+          "ordinary": 0
+        },
+        {
+          "Accuracy": 95,
+          "AtkNum": 0,
+          "AtkType": 3,
+          "Category": 4,
+          "CritRate": 0,
+          "ID": 29469,
+          "MaxPP": 5,
+          "MonID": 0,
+          "MustHit": 1,
+          "Name": "徐风缠绕",
+          "Power": 0,
+          "Priority": 0,
+          "SideEffect": [
+            893,
+            1842,
+            1804,
+            843
+          ],
+          "SideEffectArg": [
+            1,
+            4,
+            300,
+            450,
+            2,
+            2,
+            2
+          ],
+          "Type": 8,
+          "info": "全属性都提升了，开始吸取对手体力，出手变得更快了",
+          "ordinary": 0
+        },
+        {
+          "Accuracy": 95,
+          "AtkNum": 0,
+          "AtkType": 3,
+          "Category": 4,
+          "CritRate": 0,
+          "ID": 29470,
+          "MaxPP": 5,
+          "MonID": 0,
+          "MustHit": 1,
+          "Name": "神代·压迫",
+          "Power": 0,
+          "Priority": 0,
+          "SideEffect": [
+            2161
+          ],
+          "SideEffectArg": [
+            3,
+            -1,
+            -2,
+            -1,
+            -2,
+            0,
+            0,
+            1,
+            100
+          ],
+          "Type": 8,
+          "info": "开始弱化对手了，下次攻击变得更加凌厉",
+          "ordinary": 0
+        },
+        {
+          "Accuracy": 95,
+          "AtkNum": 0,
+          "AtkType": 3,
+          "Category": 4,
+          "CritRate": 0,
+          "ID": 29471,
+          "MaxPP": 5,
+          "MonID": 0,
+          "MustHit": 1,
+          "Name": "神代·隔绝",
+          "Power": 0,
+          "Priority": 0,
+          "SideEffect": [
+            433,
+            1013
+          ],
+          "SideEffectArg": [
+            3,
+            2,
+            0,
+            2,
+            0,
+            0,
+            0,
+            1,
+            100
+          ],
+          "Type": 8,
+          "info": "开始持续恢复，身体被护盾保护了起来",
+          "ordinary": 0
+        },
+        {
+          "Accuracy": 95,
+          "AtkNum": 0,
+          "AtkType": 3,
+          "Category": 4,
+          "CritRate": 0,
+          "ID": 29472,
+          "MaxPP": 5,
+          "MonID": 0,
+          "MustHit": 1,
+          "Name": "神代·虚张声势",
+          "Power": 0,
+          "Priority": 0,
+          "SideEffect": [
+            48,
+            4,
+            4,
+            462
+          ],
+          "SideEffectArg": [
+            3,
+            1,
+            100,
+            2,
+            3,
+            100,
+            2,
+            3,
+            200
+          ],
+          "Type": 8,
+          "info": "抵抗异常状态，能力提升了，开始反弹固定伤害",
+          "ordinary": 0
+        },
+        {
+          "Accuracy": 95,
+          "AtkNum": 0,
+          "AtkType": 3,
+          "Category": 4,
+          "CritRate": 0,
+          "ID": 29473,
+          "MaxPP": 5,
+          "MonID": 0,
+          "MustHit": 1,
+          "Name": "神代·剑舞",
+          "Power": 0,
+          "Priority": 0,
+          "SideEffect": [
+            4,
+            4,
+            452
+          ],
+          "SideEffectArg": [
+            0,
+            100,
+            2,
+            4,
+            100,
+            2,
+            3
+          ],
+          "Type": 8,
+          "info": "攻击提升了很多，造成的伤害将恢复自身体力",
+          "ordinary": 0
+        },
+        {
+          "Accuracy": 95,
+          "AtkNum": 0,
+          "AtkType": 3,
+          "Category": 4,
+          "CritRate": 0,
+          "ID": 29474,
+          "MaxPP": 5,
+          "MonID": 0,
+          "MustHit": 1,
+          "Name": "神代·花草护体",
+          "Power": 0,
+          "Priority": 0,
+          "SideEffect": [
+            895,
+            1030
+          ],
+          "SideEffectArg": [
+            3,
+            3,
+            1
+          ],
+          "Type": 8,
+          "info": "减少了受到的伤害，将能力下降反馈给对手",
+          "ordinary": 0
+        },
+        {
+          "Accuracy": 95,
+          "AtkNum": 0,
+          "AtkType": 3,
+          "Category": 4,
+          "CritRate": 0,
+          "ID": 29475,
+          "MaxPP": 5,
+          "MonID": 0,
+          "MustHit": 1,
+          "Name": "神代·寄生种子",
+          "Power": 0,
+          "Priority": 0,
+          "SideEffect": [
+            677,
+            597
+          ],
+          "SideEffectArg": [
+            4,
+            4,
+            4
+          ],
+          "Type": 8,
+          "info": "开始吸收对手的能力强化，开始慢慢吸取对手体力",
+          "ordinary": 0
+        },
+        {
+          "Accuracy": 95,
+          "AtkNum": 0,
           "AtkType": 0,
           "Category": 1,
           "CritRate": 0,
@@ -708872,6 +709124,330 @@
             3
           ],
           "Type": 18,
+          "info": "",
+          "ordinary": 0
+        },
+        {
+          "Accuracy": 97,
+          "AtkNum": 0,
+          "AtkType": 0,
+          "Category": 1,
+          "CritRate": 0,
+          "ID": 38570,
+          "MaxPP": 20,
+          "MonID": 0,
+          "MustHit": 0,
+          "Name": "迅风杀",
+          "Power": 85,
+          "Priority": 3,
+          "SideEffect": [
+            1217,
+            2485,
+            1155
+          ],
+          "SideEffectArg": [
+            1,
+            0,
+            6,
+            30,
+            10,
+            60
+          ],
+          "Type": 53,
+          "info": "",
+          "ordinary": 0
+        },
+        {
+          "Accuracy": 97,
+          "AtkNum": 0,
+          "AtkType": 0,
+          "Category": 1,
+          "CritRate": 0,
+          "ID": 38571,
+          "MaxPP": 5,
+          "MonID": 0,
+          "MustHit": 0,
+          "Name": "呼风密语",
+          "Power": 150,
+          "Priority": 0,
+          "SideEffect": [
+            1510,
+            479,
+            842
+          ],
+          "SideEffectArg": [
+            3,
+            100,
+            2,
+            300,
+            300,
+            300,
+            1,
+            50
+          ],
+          "Type": 53,
+          "info": "",
+          "ordinary": 0
+        },
+        {
+          "Accuracy": 95,
+          "AtkNum": 0,
+          "AtkType": 0,
+          "Category": 1,
+          "CritRate": 0,
+          "ID": 38572,
+          "MaxPP": 5,
+          "MonID": 0,
+          "MustHit": 1,
+          "Name": "秘术疾风击",
+          "Power": 160,
+          "Priority": 0,
+          "SideEffect": [
+            2299,
+            1640,
+            1708,
+            991
+          ],
+          "SideEffectArg": [
+            1,
+            3,
+            1,
+            100
+          ],
+          "Type": 53,
+          "info": "",
+          "ordinary": 0
+        },
+        {
+          "Accuracy": 97,
+          "AtkNum": 0,
+          "AtkType": 0,
+          "Category": 1,
+          "CritRate": 0,
+          "ID": 38573,
+          "MaxPP": 5,
+          "MonID": 0,
+          "MustHit": 0,
+          "Name": "神代·火花",
+          "Power": 150,
+          "Priority": 0,
+          "SideEffect": [
+            165,
+            182
+          ],
+          "SideEffectArg": [
+            3,
+            1,
+            2,
+            4,
+            100,
+            2
+          ],
+          "Type": 77,
+          "info": "",
+          "ordinary": 0
+        },
+        {
+          "Accuracy": 97,
+          "AtkNum": 0,
+          "AtkType": 0,
+          "Category": 1,
+          "CritRate": 0,
+          "ID": 38574,
+          "MaxPP": 20,
+          "MonID": 0,
+          "MustHit": 0,
+          "Name": "神代·音速火拳",
+          "Power": 85,
+          "Priority": 3,
+          "SideEffect": [
+            1138,
+            1439,
+            1048
+          ],
+          "SideEffectArg": [
+            100,
+            2,
+            100,
+            22,
+            100,
+            100
+          ],
+          "Type": 77,
+          "info": "",
+          "ordinary": 0
+        },
+        {
+          "Accuracy": 95,
+          "AtkNum": 0,
+          "AtkType": 0,
+          "Category": 1,
+          "CritRate": 0,
+          "ID": 38575,
+          "MaxPP": 5,
+          "MonID": 0,
+          "MustHit": 1,
+          "Name": "神代·灵绝击",
+          "Power": 160,
+          "Priority": 0,
+          "SideEffect": [
+            1387,
+            1253
+          ],
+          "SideEffectArg": [
+            300,
+            300
+          ],
+          "Type": 77,
+          "info": "",
+          "ordinary": 0
+        },
+        {
+          "Accuracy": 97,
+          "AtkNum": 0,
+          "AtkType": 0,
+          "Category": 1,
+          "CritRate": 0,
+          "ID": 38576,
+          "MaxPP": 5,
+          "MonID": 0,
+          "MustHit": 0,
+          "Name": "神代·克制",
+          "Power": 0,
+          "Priority": -3,
+          "SideEffect": [
+            929,
+            1708
+          ],
+          "SideEffectArg": [
+            2,
+            1,
+            3
+          ],
+          "Type": 133,
+          "info": "",
+          "ordinary": 0
+        },
+        {
+          "Accuracy": 97,
+          "AtkNum": 0,
+          "AtkType": 0,
+          "Category": 1,
+          "CritRate": 0,
+          "ID": 38577,
+          "MaxPP": 20,
+          "MonID": 0,
+          "MustHit": 0,
+          "Name": "神代·闪击",
+          "Power": 85,
+          "Priority": 3,
+          "SideEffect": [
+            1767,
+            2227,
+            478
+          ],
+          "SideEffectArg": [
+            3,
+            3
+          ],
+          "Type": 133,
+          "info": "",
+          "ordinary": 0
+        },
+        {
+          "Accuracy": 95,
+          "AtkNum": 0,
+          "AtkType": 0,
+          "Category": 1,
+          "CritRate": 0,
+          "ID": 38578,
+          "MaxPP": 5,
+          "MonID": 0,
+          "MustHit": 1,
+          "Name": "神代·巨龙之击",
+          "Power": 160,
+          "Priority": 0,
+          "SideEffect": [
+            1443
+          ],
+          "SideEffectArg": [
+            30,
+            120
+          ],
+          "Type": 133,
+          "info": "",
+          "ordinary": 0
+        },
+        {
+          "Accuracy": 97,
+          "AtkNum": 0,
+          "AtkType": 0,
+          "Category": 2,
+          "CritRate": 0,
+          "ID": 38579,
+          "MaxPP": 5,
+          "MonID": 0,
+          "MustHit": 0,
+          "Name": "神代·疾风刃",
+          "Power": 150,
+          "Priority": 0,
+          "SideEffect": [
+            1395,
+            1962
+          ],
+          "Type": 82,
+          "info": "",
+          "ordinary": 0
+        },
+        {
+          "Accuracy": 97,
+          "AtkNum": 0,
+          "AtkType": 0,
+          "Category": 2,
+          "CritRate": 0,
+          "ID": 38580,
+          "MaxPP": 20,
+          "MonID": 0,
+          "MustHit": 0,
+          "Name": "神代·强力吸取",
+          "Power": 85,
+          "Priority": 3,
+          "SideEffect": [
+            872,
+            1241,
+            1475
+          ],
+          "SideEffectArg": [
+            2,
+            250,
+            2,
+            2,
+            100
+          ],
+          "Type": 82,
+          "info": "",
+          "ordinary": 0
+        },
+        {
+          "Accuracy": 95,
+          "AtkNum": 0,
+          "AtkType": 0,
+          "Category": 2,
+          "CritRate": 0,
+          "ID": 38581,
+          "MaxPP": 5,
+          "MonID": 0,
+          "MustHit": 1,
+          "Name": "神代·舍身撞击",
+          "Power": 160,
+          "Priority": 0,
+          "SideEffect": [
+            436
+          ],
+          "SideEffectArg": [
+            50
+          ],
+          "Type": 82,
           "info": "",
           "ordinary": 0
         },
