@@ -49,18 +49,11 @@ jobs:
       - name: Install Python deps
         run: pip install -r requirements.txt
 
+      - name: Test network budgets
+        run: pnpm run test:network
+
       - name: Run task
-        run: |
-          for attempt in 1 2 3; do
-            echo "Run task attempt ${attempt}/3"
-            if pnpm start; then
-              exit 0
-            fi
-            if [ "${attempt}" -lt 3 ]; then
-              sleep $((attempt * 30))
-            fi
-          done
-          exit 1
+        run: pnpm start
 
       - name: Commit & push (if changed)
         env:

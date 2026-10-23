@@ -7,6 +7,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
+    "test:network": "tsx --test tests/network.test.ts",
     "start": "pnpm run update && pnpm run export && pnpm run main && pnpm run mergeItemsOptimizeCatItems && pnpm run validate && pnpm run detect-changes",
     "update": "pnpm exec tsx parser/index.ts",
     "export": "python parser/UnityFSParser.py",
