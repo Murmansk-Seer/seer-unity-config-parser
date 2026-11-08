@@ -1,0 +1,12 @@
+{
+  "kind": "immutable-migration-seed",
+  "inventory_format": "lf-json-sha256-v1",
+  "source_main_commit": "2c4bde67792ca8e971782fc1adb4cc1c17f1dc9e",
+  "pure_history_data_base": "cfb145e7a857603a04628888564216b7bc32e1d9",
+  "source_JSON_tree": "f284189e7c09afd4a7630e39782fc6f5d38e83ed",
+  "files": 181,
+  "inventory_sha256": "ca4217431da4c11afef961acb205106679282bb7f7d365633aaf620a23dbdfc5",
+  "legacy_cache_blob": "ade2d6ba943b8664072f5712c556a7520feede4d",
+  "official_input_version": null,
+  "scope": "Exactcommittedbaselineinventory,notarelabelingoflegacyofficialversions.Current12unknownpayloadversions/27legacyownershipnotinvented."
+}
