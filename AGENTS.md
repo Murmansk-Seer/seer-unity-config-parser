@@ -12,7 +12,7 @@ Hybrid TS+Python pipeline that downloads Unity config bundles from `https://news
 | `pnpm run main` | Parse all ~170 `.bytes` → JSON via `main/index.ts` |
 | `pnpm run dev` | `update` + `export` + `main` (no validation/change-detection) |
 | `pnpm run validate` | Validate JSON outputs via `scripts/validate-json.ts` |
-| `pnpm run detect-changes` | Compare hashes against cache at `cache/last-release-hashes.json` |
+| `pnpm run detect-changes` | Compare against canonical `.build-state/parser/last-release-hashes.json` restored from `pipeline-state` |
 
 Always use `pnpm` (not npm). TypeScript is run via `tsx`, not `tsc`.
 
@@ -42,10 +42,10 @@ Always use `pnpm` (not npm). TypeScript is run via `tsx`, not `tsc`.
 
 - GitHub Action runs weekly (Fri 12:00/14:00 CST) on `ubuntu-latest` with pnpm 9, Node 20, Python 3.11.
 - `pnpm install --frozen-lockfile`, then `pip install -r requirements.txt`, then `pnpm start`.
-- Auto-commits any changed JSON to the repo via `github-actions[bot]`.
+- Stages and fast-forward publishes only validated JSON changes via `github-actions[bot]`; the pinned shared action publishes runtime inventory on `pipeline-state` only after data publication succeeds. Both branches must be delivered together; unchanged polling creates no commits.
 
 ## Environment
 
 - `.env` file (gitignored) supplies `FEISHU_WEBHOOK_URL` and `FEISHU_SECRET` for failure alerts.
 - Python dependency: `UnityPy>=1.10.0` (in `requirements.txt`).
-- `ConfigPackage/`, `json/`, and `logs/` are gitignored.
+- `ConfigPackage/`, runtime `.build-state/`, `cache/`, and `logs/` are gitignored. Parsed `json/*.json` remains the data-only publication scope.

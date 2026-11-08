@@ -10,14 +10,13 @@ import path from "path";
 import crypto from "crypto";
 
 const jsonDir = "./json";
-const cacheDir = "./cache";
+const cacheDir = process.env.PARSER_STATE_DIR || "./.build-state/parser";
 const cachePath = path.join(cacheDir, "last-release-hashes.json");
 
 interface FileHash {
   file: string;
   hash: string;
   size: number;
-  lastModified: string;
 }
 
 interface ChangeInfo {
@@ -29,7 +28,7 @@ interface ChangeInfo {
 }
 
 function calculateFileHash(filePath: string): string {
-  const content = fs.readFileSync(filePath);
+  const content = Buffer.from(fs.readFileSync(filePath, "utf-8").replace(/\r\n/g, "\n"), "utf-8");
   return crypto.createHash("sha256").update(content).digest("hex");
 }
 
@@ -46,18 +45,20 @@ function getCurrentHashes(): FileHash[] {
     return [];
   }
 
-  const files = fs.readdirSync(jsonDir).filter((f) => f.endsWith(".json"));
+  const files = fs.readdirSync(jsonDir).filter((f) => f.endsWith(".json")).sort();
   const hashes: FileHash[] = [];
 
   for (const file of files) {
+    if (!/^[A-Za-z0-9][A-Za-z0-9_.-]*\.json$/.test(file)) throw new Error(`Invalid JSON filename: ${file}`);
     const filePath = path.join(jsonDir, file);
-    const stats = fs.statSync(filePath);
+    const stats = fs.lstatSync(filePath);
+    if (!stats.isFile()) throw new Error(`JSON input must be a regular file: ${file}`);
+    JSON.parse(fs.readFileSync(filePath, "utf-8"));
 
     hashes.push({
       file,
       hash: calculateFileHash(filePath),
-      size: stats.size,
-      lastModified: stats.mtime.toISOString(),
+      size: Buffer.byteLength(fs.readFileSync(filePath, "utf-8").replace(/\r\n/g, "\n"), "utf-8"),
     });
   }
 
@@ -66,24 +67,43 @@ function getCurrentHashes(): FileHash[] {
 
 function loadPreviousHashes(): FileHash[] {
   if (!fs.existsSync(cachePath)) {
+    if (process.env.PARSER_REQUIRE_STATE === "1") {
+      throw new Error("Restore the paired pipeline-state inventory before publishing parser output");
+    }
     return [];
   }
-
-  try {
-    const content = fs.readFileSync(cachePath, "utf-8");
-    return JSON.parse(content);
-  } catch (error) {
-    console.warn("⚠️ 无法读取上次的哈希缓存:", error.message);
-    return [];
-  }
+  const rows: unknown = JSON.parse(fs.readFileSync(cachePath, "utf-8"));
+  if (!Array.isArray(rows)) throw new Error("Parser inventory must be an array");
+  if (rows.length === 0 && process.env.PARSER_REQUIRE_STATE === "1") throw new Error("Required parser inventory cannot be empty");
+  const seen = new Set<string>();
+  return rows.map((row: unknown): FileHash => {
+    if (!row || typeof row !== "object" || Array.isArray(row)) {
+      throw new Error("Invalid parser inventory entry");
+    }
+    const value = row as Record<string, unknown>;
+    if (typeof value.file !== "string" || !/^[A-Za-z0-9][A-Za-z0-9_.-]*\.json$/.test(value.file)
+      || typeof value.hash !== "string" || !/^[0-9a-f]{64}$/.test(value.hash)
+      || !Number.isSafeInteger(value.size) || Number(value.size) < 0
+      || Object.keys(value).some((key) => !["file", "hash", "size", "lastModified"].includes(key))
+      || seen.has(value.file)) {
+      throw new Error("Invalid or duplicate parser inventory entry");
+    }
+    seen.add(value.file);
+    return { file: value.file, hash: value.hash, size: Number(value.size) };
+  });
 }
 
 function saveCurrentHashes(hashes: FileHash[]): void {
-  if (!fs.existsSync(cacheDir)) {
-    fs.mkdirSync(cacheDir, { recursive: true });
+  const content = JSON.stringify(hashes, null, 2) + "\n";
+  if (fs.existsSync(cachePath) && fs.readFileSync(cachePath, "utf-8") === content) return;
+  fs.mkdirSync(cacheDir, { recursive: true });
+  const temporary = `${cachePath}.tmp-${process.pid}`;
+  fs.writeFileSync(temporary, content, { flag: "wx" });
+  try {
+    fs.renameSync(temporary, cachePath);
+  } finally {
+    if (fs.existsSync(temporary)) fs.unlinkSync(temporary);
   }
-
-  fs.writeFileSync(cachePath, JSON.stringify(hashes, null, 2));
 }
 
 function detectChanges(

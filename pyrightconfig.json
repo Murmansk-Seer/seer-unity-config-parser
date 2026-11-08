@@ -1,0 +1,9 @@
+{
+  "include": [
+    "scripts/publish-parser-data.py",
+    "tests/test_publish_parser_data.py"
+  ],
+  "pythonVersion": "3.10",
+  "pythonPlatform": "All",
+  "typeCheckingMode": "standard"
+}

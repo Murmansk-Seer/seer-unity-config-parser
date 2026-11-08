@@ -23,7 +23,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 
+          fetch-depth: 0
+          ref: main
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
@@ -55,21 +56,31 @@ jobs:
       - name: Test current config layouts
         run: pnpm run test:config-layout
 
+      - name: Test parser publication guards
+        run: pnpm run test:pipeline-state
+
+      - name: Record validated parser checkout
+        run: echo "PARSER_BASE_REVISION=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
+
+      - name: Restore parser pipeline state
+        uses: Murmansk-Seer/.github/.github/actions/pipeline-state@2d68574bca0c4eca66a780df57b40b0668103906
+        with:
+          mode: restore
+
       - name: Run task
+        env:
+          PARSER_REQUIRE_STATE: '1'
         run: pnpm start
 
-      - name: Commit & push (if changed)
-        env:
-          TZ: Asia/Shanghai
-        run: |
-          if git diff --quiet; then
-            echo "No changes"
-            exit 0
-          fi
+      - name: Publish validated JSON changes
+        run: python3 scripts/publish-parser-data.py
 
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+      - name: Publish successful parser inventory
+        uses: Murmansk-Seer/.github/.github/actions/pipeline-state@2d68574bca0c4eca66a780df57b40b0668103906
+        with:
+          mode: publish
+          message: |
+            state(parser): record successful configuration inventory
 
-          git add -A
-          git commit -m "chore: auto sync unity config ($(date +'%Y-%m-%d %H:%M:%S'))"
-          git push
+            EN reason/scope: Persist only the canonical output inventory after strict parsing and successful data publication. Verification: the shared action checks the expected predecessor, state-only paths and unchanged-tree skip.
+            中文原因与范围：仅在严格解析及数据发布成功后保存规范化输出清单。验证：共享动作校验预期前驱、状态专属路径，并跳过相同文件树。

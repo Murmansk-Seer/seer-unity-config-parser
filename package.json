@@ -19,7 +19,8 @@
     "clean": "rimraf json ConfigPackage/export logs",
     "dev": "pnpm run update && pnpm run export && pnpm run main",
     "format": "prettier --write bytes2json/",
-    "test:config-layout": "tsx --test tests/current-config-layout.test.ts"
+    "test:config-layout": "tsx --test tests/current-config-layout.test.ts",
+    "test:pipeline-state": "tsx --test tests/pipeline-state.test.ts && python -m unittest discover -s tests -p test_publish_parser_data.py -v"
   },
   "devDependencies": {
     "@types/node": "^24.13.3",
