@@ -27,6 +27,7 @@ export interface IMoveItem {
   ordinary: number
   Power: number
   Priority: number
+  soercemove: number
   Type: number
 }
 
@@ -60,6 +61,7 @@ const moveItemSchema: FieldSchema = [
   ['Priority', int()],
   ['SideEffect', optionalArray('int')],
   ['SideEffectArg', optionalArray('int')],
+  ['soercemove', int()],
   ['Type', int()],
   ['info', text()],
   ['ordinary', int()],
@@ -76,6 +78,7 @@ const movesTblSchema: FieldSchema = [
 
 export const parseMovesConfig = createConfigParser<IMovesRoot>({
   name: 'moves',
+  requireCompleteInput: true,
   outputPath: './json/moves.json',
   parse: (reader) => {
     const result: IMovesRoot = {}

@@ -293,6 +293,8 @@ export interface ConfigParserOptions<T> {
   parse: (reader: BytesReader) => T;
   /** BytesReader 选项 */
   readerOptions?: { lengthType?: LengthType; littleEndian?: boolean };
+  /** Reject unconsumed input before writing JSON when the schema requires it. */
+  requireCompleteInput?: boolean;
 }
 
 /**
@@ -317,6 +319,11 @@ export function createConfigParser<T>(
   return (filePath: string): T => {
     const reader = createReaderFromFile(filePath, options.readerOptions);
     const result = options.parse(reader);
+    if (options.requireCompleteInput && reader.offset !== reader.data.length) {
+      throw new Error(
+        `${options.name}: expected complete input, consumed ${reader.offset} of ${reader.data.length} bytes`,
+      );
+    }
     saveAsJson(result, options.outputPath);
     return result;
   };
@@ -350,11 +357,14 @@ export function createSimpleListParser<
   itemSchema: FieldSchema;
   /** BytesReader 选项 */
   readerOptions?: { lengthType?: LengthType; littleEndian?: boolean };
+  /** Reject unconsumed input before writing JSON when the schema requires it. */
+  requireCompleteInput?: boolean;
 }): (filePath: string) => TRoot {
   return createConfigParser<TRoot>({
     name: options.name,
     outputPath: options.outputPath,
     readerOptions: options.readerOptions,
+    requireCompleteInput: options.requireCompleteInput,
     parse: (reader) => {
       const result: Record<string, any> = {};
       if (reader.boolean()) {

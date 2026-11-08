@@ -16,7 +16,6 @@ export interface IPvpCostModeVoteInfo {
   previousresultpet: string
   time1: number
   time2: number
-  time3: number
   type: number
   votepet: string
   votenumber: number
@@ -37,7 +36,6 @@ const pvpCostModeVoteInfoSchema: FieldSchema = [
   ['subkey', int()],
   ['time1', int()],
   ['time2', int()],
-  ['time3', int()],
   ['type', int()],
   ['votenumber', int()],
   ['votepet', text()],
@@ -48,6 +46,7 @@ export const parsePvpCostModeVoteConfig = createSimpleListParser<
   PvpCostModeVoteConfig
 >({
   name: 'pvpCostMode_vote',
+  requireCompleteInput: true,
   outputPath: './json/pvpCostMode_vote.json',
   dataKey: 'data',
   itemSchema: pvpCostModeVoteInfoSchema,

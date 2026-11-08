@@ -52,6 +52,9 @@ jobs:
       - name: Test network budgets
         run: pnpm run test:network
 
+      - name: Test current config layouts
+        run: pnpm run test:config-layout
+
       - name: Run task
         run: pnpm start
 

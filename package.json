@@ -18,7 +18,8 @@
     "build": "pnpm run start",
     "clean": "rimraf json ConfigPackage/export logs",
     "dev": "pnpm run update && pnpm run export && pnpm run main",
-    "format": "prettier --write bytes2json/"
+    "format": "prettier --write bytes2json/",
+    "test:config-layout": "tsx --test tests/current-config-layout.test.ts"
   },
   "devDependencies": {
     "@types/node": "^24.13.3",

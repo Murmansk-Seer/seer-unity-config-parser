@@ -1,0 +1,55 @@
+{
+  "moves": {
+    "official_version": "20261106181039",
+    "source_sha256": "8860ed0ccb18ac7542493b705b80c464a44371f4dec404791de9177c175a0578",
+    "captured_record_id": 10001,
+    "bytes_base64": "AQEBAQAAAF8AAAAAAAAAAAAAAAEAAAAAAAAAAAARJwAAIwAAAAAAAAAAAAAABgDmkp7lh7sjAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAHAC0tPg0KCQk=",
+    "expected": {
+      "Accuracy": 95,
+      "AtkNum": 0,
+      "AtkType": 0,
+      "Category": 1,
+      "CritRate": 0,
+      "ID": 10001,
+      "MaxPP": 35,
+      "MonID": 0,
+      "MustHit": 0,
+      "Name": "撞击",
+      "Power": 35,
+      "Priority": 0,
+      "soercemove": 0,
+      "Type": 8,
+      "info": "",
+      "ordinary": 0
+    },
+    "soercemove_byte_offset": 63
+  },
+  "pvpCostMode_vote": {
+    "official_version": "20261106181039",
+    "source_sha256": "3f2d397334406faa3dfe1684792d9e425072d05fd96787ff730e27844a3e02d8",
+    "captured_record_id": 1,
+    "bytes_base64": "AQEAAAAAAAAAAQAAADwAMzVfNDAwMDsyMF80NzY2XzQwMDQ7MTBfNDkyMV80NzE3XzM0MzI7Nl80OTAyXzQ4NjZfNDQ5OF80MTg3AAAg5AhrAQAAAAAAAADyKDUBwFDtakDo82oBAAAABwAAAE8AMzA1Njs0MjU4OzQxMjU7NDQ0NDszNjgzOzQ1MDA7NDcxMjs0Mzk0OzM1MzI7NDgyODs0MzYxOzQ4NzU7MzU0OTs0NTA5OzM3MTY7MzMxMQ==",
+    "expected": {
+      "adjust": 0,
+      "id": 1,
+      "officialsetpet": "35_4000;20_4766_4004;10_4921_4717_3432;6_4902_4866_4498_4187",
+      "previousresultpet": "",
+      "previousresultshowtime": 1795744800,
+      "ranklimit1": 1,
+      "ranklimit2": 0,
+      "subkey": 20261106,
+      "time1": 1793937600,
+      "time2": 1794369600,
+      "type": 1,
+      "votenumber": 7,
+      "votepet": "3056;4258;4125;4444;3683;4500;4712;4394;3532;4828;4361;4875;3549;4509;3716;3311"
+    },
+    "soercemove_byte_offset": null
+  },
+  "provenance": {
+    "official_version": "20261106181039",
+    "manifest_sha256": "f600ad717745d4b1da87651c2a5fb48d761a5f659886674f00de535f13b52aab",
+    "bundle_sha256": "6ffa46b114e399ebabbda5772af41f3f5f31767417bed62e94378e1a5fc9932f",
+    "selection": "Actual first record bytes, original nested presence flags and count replaced with1; originalMoves root text retained. No inferred numeric units or relationships."
+  }
+}
